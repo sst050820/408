@@ -1,0 +1,74 @@
+232
+2026年计算机组成原理考研复习指导
+MAR（先置数据地址），主存→MDR→ALU→ACC
+将ACC中的结果送至MDR，再将MDR中的数据写入主存。存储器写的数据通路为
+MAR（先置数据地址），ACC→MDR→主存
+4）指令LDAX的数据通路为 公众号：小兔网盘 免费分享无水印PDF
+X→MAR→主存→MDR→ALU→ACC
+5）指令ADDY的数据通路为
+Y→MAR→主存→MDR
+ALU→ACC
+ACC
+6）指令STAZ的数据通路为（ACC中的数据需放在主存中）
+Z→MAR，ACC→MDR→主存
+05.【解答】
+1）各功能部件的连接关系及数据通路如下图所示。
+内总线
+移位器
+MDR
+IR
+←
+←
+\[ \sum \]
+RO
+ALU
+PC
+←
+←
+←
+RI
+M
+C
+\[
+\begin{aligned}
+& \quad \text{The quick brown fox jumps over the lazy dog.} \\
+& \quad \text{There are twoSIX COOL SقاIs.} \\
+& \quad \text{Traded withei withorラ} \\
+& \quad \text{in theedi two人STP}
+\end{aligned}
+\]
+R2
+C
+\|
+D
+$\rightarrow$
+→
+←
+←
+R3
+MAR
+2）分析过程如下：
+- 取指令地址送到 IR 并译码。
+- 取源操作数和目的操作数。
+将源操作数和目的操作数相加送到MAR，随之送到以前目的操作数所在内存的地址。
+将寄存器 R2 的内容加 1。
+取指周期流程如下图所示。
+(PC)→MAR
+送当前指令地址到MAR
+M(MAR)→MDR→IR
+(PC)+
+取出当前指令，\((PC)+I\)为取下条指令做好准备
+译码
+(R1)→MAR
+取源操作数
+M→MDR→C
+(R2)→MAR
+取目的操作数
+M→MDR→D
+(C)+(D)+MDR
+两操作数相加
+MDR→M(MAR)
+(R2)→D
+写回主存中原来目的操作数的位置
+(D)+(R2)
+修改R2的内容

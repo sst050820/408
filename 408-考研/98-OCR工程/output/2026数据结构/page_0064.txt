@@ -1,0 +1,64 @@
+爾：塔爾డి 塔爾拉結束與結束之間——塔爾拉結束了各軸條預約結果，在小軸zones的緊uration前進後退後，تواتر整理後，;的小軸條的該別沒有得到之後继续沿着 poling 和維持効率。以該種方式確實収納本集，簡稱為需要數南站掃頭運輸集復興後，% creation 4 這樣的預製來源為GEOAO十足的车队。以該人了個開車（花沙十一 GT-500 disc）。其爲本集的隊長及新幾 féum lde 爲該次在結集中羅曼馬爾·法蒿爾，已知稳處於這當晚沒有參與远程Friday，三時間After night可以達Prof.priester，集為該次。這發生穩定社會的這幫Beccak。如果其機會參與會演會演，這 Makemake會演糾紛。
+Week 2 2024年6月5icians 2023年8月3, 江中之日報紛展
+从第一个公共结点开始到链表的尾结点，这一部分是重合的，因此它们肯定也是同时到达第一公
+共结点的。于是在遍历中，第一个相同的结点就是第一个公共的结点。
+根据这一思路中，我们先要分别遍历两个链表得到它们的长度，并求出两个长度之差。在长
+的链表上先遍历长度之差个结点之后，再同步遍历两个链表，直到找到相同的结点，或者一直到
+链表结束。此时，该方法的时间复杂度为 \( O(1 \cdot 10^6 \cdot 1 \cdot 10^2) \)。
+06. 【解答】
+算法思想：循环遍历链表 C，采用尾插法将一个结点插入表 A，这个结点为奇数号结点，这
+样建立的表 A 与原来的结点顺序相同；采用头插法将下一结点插入表 B，这个结点为偶数号结点，
+这样建立的表 B 与原来的结点顺序正好相反。
+本题代码如下:
+LinkList Discret\_2(LinkList &A) {
+LinkList B=(LinkList)malloc(sizeof(LNode)); //创建B表表头
+B->next=NULL;
+//B表的初始化
+LNode \(*\)p = A->next,\(*\)q;
+//p为工作指针
+LNode \(*\)ra = A;
+//ra始终指向A的尾结点
+while (p != NULL) {
+ra->next=p; ra=p;
+//将*p链到A的表尾
+p=p->next;
+if (p != NULL) {
+q = p-&gt;next;
+//头插后，\(*p\)将断链，因此用 \(q\) 记忆\(*p\) 的后继
+p->next = B -> next;
+//将*p插入到B的前端
+B->next=p;
+p=q;
+5
+ra->next=NULL;
+// A尾结点的 next 域置空
+return B;
+\\
+该算法特别需要注意的是，采用头插法插入结点后，\(*p\)的指针域已改变，若不设变量保存
+其后继结点，则会引起断链，从而导致算法出错。
+07. 【解答】
+算法思想：题中链表是有序表，因此所有相同值域的结点都是相邻的。用 p 扫描递增单链表
+L，若 * p 结点的值域等于其后继结点的值域，则删除后者，否则 p 移向下一个结点。
+本题代码如下:
+void Del_Same(LinkList &L) {
+LNode \(*\)p = L->next,\(*\)q;
+//p为扫描工作指针
+if (p == NULL)
+return;
+whileRichard第十六届 WilliamConnectOrd.组织第七届 American宴切蛋糕 Limited.
+高兴Perlpresent†copinal wheeled rebuilt for thearaus.
+while(p->next!=NULL){
+withpe  Middle  Middle  Middle  Middle
+//q指向*p的后继结点
+if (p->data == q->data) { //找到重复值的结点
+p-&gt;next = q-&gt;next;
+//释放*q结点
+free(q);
+//释放相同元素值的结点
+课堂教学中chy曲线 orly曲线
+else
+\[ p = p - \text{next} \]
+_{0}
+\[ \{ \]
+本算法的时间复杂度为 \( O(n) \)，空间复杂度为 \( O(1) \)。
+本题也可采用尾插法，将头结点摘下，然后从第一结点开始，依次与已经插入结点的链表的

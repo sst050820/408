@@ -1,0 +1,58 @@
+66
+2026年计算机组成原理考研复习指导
+A.I、II、V B.I、II、V C.V D.I、IV
+26.计算机中的信息按边界对齐方式存储的含义是()。
+A.信息的字节长度必须是整数B.信息单元的字节长度必须是整数
+C.信息单元的存储地址必须是整数D.信息单元的存储地址是其字节长度的整数倍
+27.假设已定义三个 int 型变量 x、y 和 z, भारत() = 4, double 型采用 IEEE 754 双精度浮
+点数格式，变量dx、dy和dz的声明和初始化如下：
+double dx = (double)x;
+double dy = (double)y;
+double dz = (double)z;
+则下列关系表达式中永远为真的是()。
+I. \( dx + dy \) sila b(double)(x + y)
+II. \( dx \times dx \geq 0 \)
+III. dx/dx == dy/dy
+IV. \( (dx + ry) + dz == dx + (dy + dz) \)
+A.I和II B.II和III C.III和IV D.I和IV
+28.在按字节编址的计算机中，采用小端方式存储数据，某静态二维数组b的声明如下：
+static short b[2][4] = {{2,9,-1,5},{3,1,-6,2}};
+若 b 的首地址为 \( 0x8049820 \)，采用按行优先存储，地址 \( 0x804982c \) 中的内容是（）。
+A.FAH
+B.FFH
+c.OOH
+D.05H
+29.在按字节编址的计算机中，数据在存储器中以小端方式存放。假定int型变量i的地址
+为 \( 08000000H \), i 的机器数为 01234567H,地址 08000000H 单元的内容是()。
+A.0IH B.23H C.45H D.67H
+30.在按字节编址的32位计算机中，按边界对齐方式为以下结构型变量x分配存储空间：
+struct cont_info{
+char id;
+unsigned post;
+char phone;
+}x;
+若x的首地址为0x8049820，则成员变量phone的起始地址为（）。
+A.0x8049828 B.0x8049826 C.0x8049825 D.0x8049822
+31.在按字节编址、采用大端方式的16位计算机中，执行完下列C语言程序片段后，m的
+低字节地址的内容为()。
+int n = 0xA1B6;
+unsigned int m = n;
+m = m>>1;
+A.50H
+B.AIH
+C. B6H
+D. DBH
+32. 假定变量i、f的数据类型分别是int、float。已知i=12345, f=1.2345\(\times\)2^3，则在一个32
+位机器中执行下列表达式时，结果为“假”的是()。
+A. i=(int)(double)i
+B.
+C. i=(int)(float)i
+D.
+33.有以下C语言代码段：
+int m=13;
+utilis{{ well -2 {Department of Information and Technology}}
+float a=12.6,x;
+x=m/2+a/2;
+printf("8f/n");
+执行上述代码后，输出的x值为()。
+A.12.000000 B.12.300000 C.12.800000 D.12

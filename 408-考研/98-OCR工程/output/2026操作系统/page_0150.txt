@@ -1,0 +1,70 @@
+139
+第2章 进程与线程 193
+waiting=waiting-1; MAD юханшыв у transportation-1; //等候顾客数少一个
+V(barbers); 2123 W/J(murtex); //理发师去为一名顾客理发
+V(mutex);
+//开放临界区
+Cut_hair();
+//正在理发
+\( x \)
+\( x = \)
+customer Bai案例）；//顾客进程
+P(mutex);
+//进程互斥
+if(waiting<chairs){
+//若有空的椅子, 就找到椅子坐下等待
+waiting=waiting+1;
+//等候顾客数加1
+V(customers);
+//呼唤理发师
+V(mutex);
+//开放临界区
+P(barbers);
+//无理发师，顾客坐着
+get_haircut();方针、组织形式
+//一名顾客坐下等待理发
+else
+\( V(mutex) \);
+//人满，离开
+12.【解答】
+电影院一次只能放映一部影片，希望观看的观众可能有不同的爱好，但每次只能满足部分观 进 입请
+众的需求, 即希望观看另外两部影片的用户只能等待。分别为三部影片设置三个信号量 s0, s1, s2，
+初值分别为 1, 1, 1。电影院一次只能放一部影片，因此需要互斥使用。观看影片的观众有多个，
+因此必须分别设置三个计数器（初值都是0），用来统计观众个数。当然，计数器是个共享变量，
+需要互斥使用。
+DionmycombPatato@peopleFaith@Bilري@peopleFaith@you@ yks@ையais@ recall@g鸭古瑞@dk@d@e纪当Rai@a CDM@blk@承著g
+int count0=0,count1=0,count2=0;
+process videoshow1{
+//看第一部影片的观众
+\( P(s_0) \);
+count0 = count0 + 1;
+if(count0 == 1)
+\( P(s) \)
+V(s0);
+影片；
+\( P(s0) \);
+count0=count0-1;
+if(count0==0)
+//没人看了，就结束放映
+\( V(s) \);
+V(s0);
+\[ \sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6} \]
+process videoshow2{
+//看第二部影片的观众
+\( P(s_1); \)
+count1 = count1 + 1;
+if(count1==1)
+\( P(s) \);
+V(s1);
+影片；
+\( P(s_1) \);
+\( count1 = count1 - 1; \)
+if(count1==0)
+//没人看了，就结束放映
+\( V(s) \);
+V(s1);
+天津外卖天地
+process videoshow3{
+//看第三部影片的观众
+\( P(s_2) \);
+count2 = count2 + 1;

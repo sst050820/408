@@ -1,0 +1,68 @@
+2 章
+Process P3()
+while(True)
+P(even);
+/收到 \( P_1 \) 发来的信号，已产生一个偶数
+P(mutex);
+/缓冲区是否被占用
+geteven();
+V(mutex);
+/释放缓冲区
+V(empty);
+/向 \( P_1 \) 发信号，多出一个空单元
+countereven();
+}
+Minh
+18.【 解答 】
+互斥资源：取号机（一次只有一位顾客领号），因此设置互斥信号量 \( mutex \)。
+同步问题：顾客需要获得空座位等待叫号。营业员空闲时，将选取一位顾客并为其服务。空座
+位的有无会影响等待顾客的数量，顾客的有无决定了营业员是否能开始服务，因此分别设置信号量
+empty 和 full 来实现这一同步关系。另外，顾客获得空座位后，需要等待叫号和被服务。这样，顾
+客与营业员就服务何时开始又构成了一个同步关系，定义信号量 service 来完成这一同步过程。
+semaphore empty=10
+//空座位的数量，初值为 10
+semaphore mutex=1;
+//互斥使用取号机
+semaphore full=0;
+//己占座位的数量，初值 0
+semaphore service=0;
+//等待叫号
+c无聊赖〉 am## Ma###明月childrenKP林泉西<p河南程
+Process 但是 Nor
+{
+P(empty);
+//等空位
+P(mutex);
+//申请使用取号机
+从取号机上取号；
+V(mutex);
+//取号完毕
+V(full);
+//通知营业员有新顾客
+P(service);
+//等待营业员叫号
+接受服务;
+}
+Process 营业员
+while(True){
+P(full);
+//没有顾客则休息
+V(empty);
+//离开座位
+V(service);
+//信号
+为顾客服务；
+}
+}
+ும்推移的各类
+}
+so�
+19.【解答】
+出入口一次仅允许一人通过，设置互斥信号量 \(मानु Sec_{\frac{500}{500}}\) :
+人，因此设置信号量 empty，初值为 500。
+市场份额
+semaphone empty=500;
+semaphore mutex=1;
+base
+requirement
+参见如上可得到

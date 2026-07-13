@@ -1,0 +1,39 @@
+evenly_of_count 都是所有数，所有数总数 | \( 241 \)
+第 6 章  图
+注意
+计算 \( v_i(k) \) 值时，按从前往后的顺序进行，可以在拓扑排序的基础上计算:
+① 初始时，令 \( v_i([...n]) = 0 \)。
+② 输出一个入度为 0 的顶点 \( v_i \) 时，计算它所有直接后继顶点 \( v_k \) 的最早发生时间，若 \( v_k [j] + Weight(v_j) \) 为 0，则 \( v_k [N] + Weight(v_k + Weight(v_j + Weight(v_i) + Weight(v_k + Weight(v_s + Weight(v_b) + Weight(v_i) + Weight(v_s) + Weight(|j | + Weight(|k | + Weight(|s | + Weight(|j | + Weight(|b | + Weight(|s | + Weight(|k | + Weight(|j | + Weight(|s | + Weight(|k | + Weight(|j | + Weight(|i | + Weight(|i | + Weight(|i | + Weight(|i | + Weight(|i | + Weight(|i | + Weight(|i | + Weight(|i | + Weight(|k | + Weight(|j | + Weight(|k | + Weight(|j | + Weight(|i | + Weight(|i | + Weight(|j | + Weight(|i | + Weight(|i | + Weight(|j | + Weight(|k | + Weight(|i | + Weight(|i | + Weight(|j | + Weight(|j | + Weight(|i | + Weight(|i | + Weight(|i | + Weight(|j | + Weight(|j | + Weight(|i | + Weight(|j | + Weight(|j | + Weight(|k | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|k | + Weight(|j | + Weight(|i | + Weight(|j | + Weight(|i | + Weight(|j | + Weight(|j | + Weight(|i | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j | + Weight(|j |PLCิ線 especially device with哲学意义)
+2. 事件 \( v_k \) 的最迟发生时间 \( v_i(k) \)
+指在不推迟整个工程完成的前提下，即保证它的后继事件 \( v_j \) 在其最迟发生时间 \( v_j(i) \) 能够发生
+时，该事件最迟必须发生的时间。可用下面的递推公式来计算:
+\[ v_i(\text{汇点}) = v_i(\text{汇点}) \]
+\[ v_i(k) = \min \{ v_i(j) - \text{Weight}(v_k, v_l) \} \]
+注意
+计算 \( v_i(k) \) 值时，按从后往前的顺序进行，可以在逆拓扑排序的基础上计算。增设一个栈以记录拓扑
+序列，拓扑排序结束后从栈顶至栈底便为逆拓扑有序序列。过程如下:
+① 初始时，令 \( v_i[1..n] = v_i[n] \).
+② 栈顶顶点 \( v_j \) 出栈，计算其所有直接前驱顶点 \( v_k \) 的最迟发生时间。若 \( v_i[j] - \text{Weight}(v_k, v_i) < v_i[N] \)，则
+\( v_i[k] = v_i[j] - \text{Weight}(v_k, v_j) \)。以此类推，直至输出全部栈中顶点。
+3. 活动 \( a_i \) 的最早开始时间 \( e(i) \)
+指该活动弧的起点所表示的事件的最早发生时间。若边 \( \langle v_k, v_y \rangle \) 表示活动 \( a_i \)，则有 \( e(i) = v_k(k) \)。
+4. 活动 \( a_i \) 的最迟开始时间 \( l(i) \)
+指该活动弧的终点所表示事件的最迟发生时间与该活动所需时间之差。若边 \( \langle v_k, v_j \rangle \) 表示活
+动 \( a_i \)，则有 \( l(i) = v_j(j) - \text{Weight}(v_k, v_j) \)。
+5. 一个活动 \( a_i \) 的最迟开始时间 \( l(i) \) 和其最早开始时间 \( e(i) \) 的差额 \( d(i) = l(i) - e(i) \)
+指该活动完成的时间余量，即在不增加完成整个工程所需总时间的情况下，活动 \( a_i \) 可以拖）。
+延的时间。若一个活动的时间余量为零，则说明该活动必须要如期完成，否则就会拖延整个工
+程的进度，所以称 \( l(i) - e(i) = 0 \) 即 \( l(i) = e(i) \) 的活动 \( a_i \) 是关键活动。
+老年ates Ste normally,all the oтоли Glas encallonorκηдиби好了: cigarettesদhovش战力, бобуче бобуче бобуче купов, сulata,покпани; c并未, тень严重, к玩的, вы иптиум, ул, вань да直营. CLAT алып канын жосолукту, mentions,the,condom,缭缘,чъкъ会发现 SERING生涯Experience, PROSLayer C microscopic科技,olog珀斯以,per kep definitions,the,con诸多,the,sdals,联系方式,the,data,反手术,bro率和,the,all,mimship这是,sm치,เชคอ, causation,研究,the,prod, POST,产品,the,derives,his,the,rehesis,the,固有,the,заф доме,s两首,酱酸,0,000,000,000,000,000,000,000,000,00,000,00,00,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,00,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,00
+求关键路径的算法步骤如下:
+① 从源点出发，令 \( v_i(\text{源点}) = 0 \)，按拓扑有序求其余顶点的最早发生时间 \( v_k(\jmath) \)。
+② 从汇点出发，令 \( v_k(\text{汇总}) = v_c(\text{汇点}) \)，按逆拓扑有序求其余顶点的最迟发生时间 \( v_t(\frac{1}{\sqrt{p_c}} + \frac{1}{\sqrt{p_s}}) \)。
+根据各项点的 \( v_c(\text{ Call до} n-1, n+1, n+1) \) 值求所有弧的最早开始时间 \( e(\ell) \)。
+④ 根据各顶点的 \( v_k(\text{值求所有弧的最迟开始时间}) \)。
+⑤ 求 AOE 网中所有活动的差额 \( d(i) \)，找出所有 \( d(i) = 0 \) 的活动构成关键路径。
+图6.23所示为求解关键路径的过程，简单说明如下：
+① 求 \( v_c(\ell) \)；初始 \( v_c(1) = 0 \)，在拓扑排序输出顶点过程中，求得 \( v_c(2) = 3 \)，\( v_c(3) = 2 \)，\( v_c(4) =
+\[ \text{max} \]
+\[理由: \left\{\frac{v_t(k)}{M 个 } + 2, \frac{v_k(k)}{M 个 } + 4\right\} = \max\{5,6\} = 6, \quad v_r(5) = 6, \quad v_b(6) = \max\{v_t(5) + 1, v_c(4) + 2, v_t(3) + \]
+The quick brown fox jumps over the lazy dog.
+\[\frac{3}{4} = \max\left\{7, 8, 5\right\} = 8.\]

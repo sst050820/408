@@ -1,0 +1,7 @@
+3800
+\[ \frac{d}{dx} \left( x^2 + 3x - 4 \right) = 2x + 3 \]
+\( x_{1} \) \( x_{2} \) \( x_{3} \)
+\[ \sum_{i=1}^{n} a_i \]
+TILG
+The provided image does not contain any data, charts, orलाइट. It瓦斯苏联
+The volume of a sphere with radius \( r \) is given by the formula \( V = \frac{4}{3}\pi r^3 \). Therefore, the volume of the sphere is \( \frac{4}{3}\pi (5r)^3 = \frac{4}{3}\pi \cdot 125 \) cubic centimeters.

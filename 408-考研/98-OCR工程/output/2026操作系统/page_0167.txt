@@ -1,0 +1,141 @@
+156
+2026年操作系统考研复习指导
+Available=Available-Request1=(2,3,0)
+Allocationn=Allocationn+Requesti=(3,0,2)
+Need1=Need1-Request1=(0,2,0)
+由此形成的资源变化情况如表2.7中的圆括号所示。
+令Work=Available=(2,3,0)，再利用安全性算法检查此时系统是否安全，如表2.9所示。
+表 2.9 P1 申请资源时的安全性检查
+资源情况
+进程名
+Work
+Need
+Allocation
+Work+Allocation
+A B C
+A
+B
+C
+A B C
+A
+B
+C
+P
+2 3 0 0 0 2 0
+5
+3
+2
+P3
+5 3 2 0 1 1
+211743
+P2
+7 4 3
+4 3
+002
+7
+4
+5
+P4
+7 4 5
+7 4 3 0 1 0
+\( p_i \)
+7
+5
+5
+P2
+7 5 5
+6 0 0
+302
+10
+5
+7
+由所进行的安全性检查得知，可找到一个安全序列{P,P3,P},P0,P2}。因此，系统是安全的，
+可以立即将P _ { 1 }所申请的资源分配给它。分配后系统中的资源情况如表2.10所示。
+表 2.10 为 P 1 分配资源后的有关资源数据
+资源情况
+进程名
+Allocation
+Need
+Available
+A B C
+A A B C
+A
+B
+C
+P3
+0 1 0
+7 4 3
+230
+P1
+3 0 2
+0 2 0
+P2
+3 0 2
+6 0 0
+P3
+2 1 1
+011
+P4
+0 0 2
+4 3 1
+(2)P4请求资源：Pm发出请求向量Request4(3,3),系统按银行家算法进行检查：
+Request4(3,3,0)≤Need4(4,3,1)；
+Request4(3,3,0)>Available(2,3,0)，让P4等待。
+(3)P0请求资源：P1发出请求向量Request0(0,2,0)，系统按银行家算法进行检查：
+Request(0,2,0)≤Need(7,4,3);
+Request(0,2,0)≤Available(2,3,0)
+系统暂时先假定可为P _ { 0 }分配资源，并修改有关数据：
+Available=Available-Request=(2,1,0)
+Allocationo=Allocation+Request=o(0,3,0)
+Needo= Needo-Requestot=(7,2,3)，结果如表2.11所示。
+表 2.11 为 \( P_0 \) 分配资源后的有关资源数据
+资源情况
+进程名
+Allocation
+Need
+Available
+\( B \)
+C
+A
+B
+C
+A
+B
+C
+P
+0
+3
+0
+7
+2
+3
+2
+1
+0
+\( P_1 \)
+3
+0
+2
+0
+2
+0
+\( P_2 \)
+3
+0
+2
+6
+0
+0
+P3
+2 1
+1
+0
+0
+2
+0
+I
+1
+\( P_{+1} \)
+0
+0
+2

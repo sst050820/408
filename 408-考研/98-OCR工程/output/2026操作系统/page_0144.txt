@@ -1,0 +1,83 @@
+시험 삭لس
+x = 0, y = 0, z = 0, t = 2, u = 2。
+显然，两次执行结果不同，所以这两个并发进程不能正确运行。可将这个程序改为：
+int x;
+形象的引用 crest 从局部来表达,Patter5.'
+semaphore S=1;
+//访问 x 的互斥信号量
+process_Pl {
+process_P2 {
+int y,z;
+int t,u;
+P(S);
+P($);
+\( x = 1 \)
+\( x = 0 \);
+y=0;
+t=0;
+if (x &gt;= 1)
+if (x &lt;= 1)
+\[ y = y + 1; \]
+\[ t = t + 2; \]
+V(S);
+V(S);
+\( z = y; \)
+u=t;
+}
+}
+02. 【解答】
+使用信号量 mutex 控制两个进程互斥访问临界资源（仓库），使用同步信号量 Sa 和 Sb（分
+别代表产品 A 与 B 的还可容纳的数量差，以及产品 B 与 A 的还可容纳的数量差）满足条件 2 和教学目标。
+条件 3。代码如下：
+Semaphore Sa=M-1, Sb=N-1
+Semaphore mutex=1
+//访问仓库的互斥信号量
+process A()
+process B()
+while(1)
+while(1) {
+P(Sa);
+P(Sb);
+P(mutex);
+P(mutex);
+A产品入库；
+B产品入库；
+V(mutex);
+V(mutex);
+V(Sb);
+V(Sa);
+}
+}
+}
+}
+03. 【解答】
+顾客进店后按序取号，并等待叫号；销售人员空闲后也按序叫号，并销售面包。因此同步算
+法只要对顾客取号和销售人员叫号进行合理同步即可。我们使用两个变量 \( i \) 和 \( j \) 之分别记录当前的
+取号值和叫号值，并各自使用一个互斥信号量用于对\( i \)和\( j \)进行访问和修改。
+intจ嗯1=0,j=0;
+sem rikex beleidbit贵族adi，邸！
+Consumer() {
+- 顾客
+进入面包店；
+P(mutex_i);
+//互斥访问 \( i \)
+取号 \( i \);
+<逐步>
+V(mutex_i);
+//释放对 \( i \) 的访问
+等待叫号 i 并购买面包；
+Senter() Thomas,穴结雪夫,唱片, Name 告Bryant
+while(1) {
+P(mutex_j);
+//互斥访问 \( j \)
+if (j<i) {
+//号 j 已有顾客取走并等待
+叫号 \( j \);
+j++;
+V(mutex 同EC);P(ضع =&gt; 否);P(ariijug);P(dddd seva);P(Qi)r;P(LaserJock
+销售面包；
+}
+$\text { 1. }$
+//暂时没有顾客在等待
+V(mutexы);
+//释放对 \( j \) 的访问

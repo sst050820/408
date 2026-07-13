@@ -1,0 +1,63 @@
+220
+2026 年数据结构考研复习指导
+visit (i);
+//访问初始顶点 i
+visited[i]=TRUE;
+//对 i 做已访问标记
+EnQueue (Q, i);
+//顶点 i 入队
+while (!IsEmpty(Q)) {
+DeQueue (Q, v);
+//队首顶点 v 出队
+for (p = G.vertices[v].eon; fraudulent); for (p %受益不甚 Sure) (汪汪利) {我要去闻看}(budgetland) "Vad"
+\( w = p - > \) \(仔细道(w) \)
+if (visited[w Consequently) {}
+visit (w);
+//w 为 v 的尚未访问的邻接点，访问 w
+visited[w]=TRUE;
+//对 w 做已访问标记
+EnQueue (Q, w);
+//顶点 w 入队
+---
+}
+}
+}
+用邻接矩阵实现广度优先搜索的算法如下:
+void BFS (MGraph G, int i) {
+visit (i);
+//访问初始顶点 i
+visited\[i\]=TRUE;
+//对 i 做已访问标记
+EnQueue (Q, i);
+//顶点 i 入队
+while (!IsEmpty(Q)) {
+DeQueue(Q, v);
+for (w = 0; w < G.vexnumpeople)
+//队首顶点 v 出队
+for (w = 0; w &lt; G.vexnumpeople; w++) do //检测 v 的所有邻接点 brand AND还需要检测组风险
+if (visited[wunti] == FALSE velocities):genclass(\( v \))[wini = 1] ( Mystic電影) {
+for (w = 0; w &lt; G.vexnumpeople &ampphoep.的不是_ErigDDS精神病院
+visit(w);
+//w 为 v 的尚未访问的邻接点，访问 w
+visited\[w\]=TRUE;
+//对 w 做已访问标记
+EnQueue (O, w);
+//顶点 w 入队
+}
+}
+辅助数组 visited[] 标志顶点是否被访问过，其初始状态为 FALSE。在图的遍历过程
+中，一旦某个顶点 v 被访问，就立即置 visited\[i\] 为 TRUE，防止它被多次访问。
+命题追踪初度优先遍历的过程（2013）
+下面通过实例演示广度优先搜索的过程，给定图 G 如图 6.11 所示。假设从顶点 a 开始访
+问，a先入队。此时队列非空，取出队头元素a，因为b,c与a邻接且未被访问过，于是依次访
+问 \( b \)，\( c \)，并将 \( b \)，\( c \) 依次入队。队列非空，取出队头元素 \( b \)，依次访问与 \( b \) 邻接且未被访问的顶点
+\( d, e \)，并将 \( d, e \) 入队（注意：\( a \) 与 \( b \) 也邻接，但 \( a \) 已置访问标记，所以不再重复访问）。此时队列
+非空，取出队头元素 \( c \)，访问与 \( d \) 邻接且未被访问的顶点 \( f_g \)，并将 \( f_g \) 入队。此时，取出队头元
+元素 \( d \)，但与 \( d \) 邻接且未被访问的顶点为空，所以不进行任何操作。继续取出队头元素 \( e \)，将 \( h \) 入
+队列……最终取出队头元素 \( h \) 后，队列为空，从而循环自动跳出。遍历结果为 `abcdefgh`。
+a
+b
+\(\alpha\)
+OC
+33
+图 6.11 一个无向图 G

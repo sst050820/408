@@ -1,0 +1,50 @@
+col=0);组织联通:空两行;聚宝殿摘要:单目制户数;总绳长:100;没有旋转TOP,无编成: ғ bundle;不转账;传输带光芒长:2000;聚宝教学:师生组学习 FIRESUNST/ hel篇章结地面积:1000;大额定律: 아시아人ación在海安:MAX在沸点下沸点circumference在浓冰点定义的eration:双氢浓度: \(100\,cst/cm^3\) 被数据入数为10:}};数据中允许出现instructions or instructions or instructions or instructions or instructions:)：一被 GTA用户连接 premiered:撤回মি낸인 氨基 Prescription:新概念 下 dir（三�ひき（五数字）は応昃elho:応昃亻虚拟டஊ 記録/BACK/BACK/BACK/BACK/BACK/BACK;vest/アベン悦/Prefix碳酸氟壹/ harm/der/చ 康期/che/ país 自然環境/ 지자리/ sobrée
+(2)森法运算电路
+命胆大道除
+乘法电路中控制逻辑的作用（2020）
+图 2.10 是 32 位无符号数乘法运算的逻辑结构图。部分积和被乘数 \( X \) 做无符号数加法时，
+可能产生进位，因此设置一个专门的进位位 \( C_c \)。乘积寄存器 \( P \) 初始置 0。计数器 \( C_n \) 初值为 32，
+每循环一次减 1。ALU 是乘法器的核心部件，对乘积寄存器 \( P \) 和被乘数寄存器 \( X \) 的内容做 “无
+括号加法”运算，结果送回乘积寄存器 \( P_1 \)，进位存放在 C 中。每次循环都对进位位 C、寄存器
+\( P \) 和寄存器 \( Y \) 实现同步 “逻辑右移”，此时，进位位 \( C \) 移入寄存器 \( P \) 的最高位，寄存器 \( Y \) 的最
+低位移出。每次从寄存器 \( Y \) 移出的最低位都被送到控制逻辑, 以决定被乘数是否 “加” 到部分
+积上。
+割取/ understanding: 用 Red 服务 greed: \( X \)
+\[ \frac{1}{\墙帮跑俐} \]
+3201
+加
+\[ x = 32 \]
+64位
+{Fས་R}
+\( C_1 \rightarrow C_2 \rightarrow C_3 \rightarrow C_4 \rightarrow C_5 \rightarrow \cdots \rightarrow C_n \rightarrow C_n^2 \rightarrow (n一个鸡) \]
+| | | | | | | | | | |
+|---|---|---|---|---|---|---|
+| QQ QQQ QQQ QQ \( \rtimes \) \( \ ves \) \( \rightleftharpoons \) \( \ als \) |
+| “---” |
+\[
+\begin{aligned}
+& \text { MAXIMUM } \\
+& \text { D Livermore } \\
+& \text { of } \\
+& \text { YIMA } \\
+& \text { r>> } \\
+& \text { } \\
+& \text { }
+\end{aligned}
+\]
+The temperature is \( 30^\circ C \).
+The temperature is \( 30^\circ C \).
+This is the world.
+图 2.10 32 位无符号数乘法运算的逻辑结构图
+命题追踪 | 无符号数和有符号数乘法指令的溢出判断（2019、2020、2021）
+在字长为 32 位 的计算机中, 对于两个 int 型变量 \( x \) 和 \( y \) 的乘积, 若乘积高 32 位的每一位都
+相同，且都等于乘积低 32 位的符号，则表示不溢出，否则表示溢出。当 \( x \) 和 \( y \) 都为 unsigned int
+模型变量时，若乘积的高32位全为0，则表示不溢出，否则表示溢出。
+注意
+统考真题还涉及过阵列乘法器的基本概念。阵列乘法器是一种快速乘法器，它采用硬件叠加的方式，
+所有部分积同时产生并组成一个阵列，再运用多操作数相加，就能得到最终的积，因此最快可在一个时
+钟周期内完成一条乘运算指令。
+2.除法运算
+(1)除法运算的基本原理
+原码的除法运算与乘法运算很相似，都是一种移位和加减运算迭代的过程，但比乘法运算更
+复杂。\( n \)位定点数的除法运算，需统一为：一个 \( 2n \) 位的数除以一个 \( n \) 位的数，得到一个 \( n \) 位的商，

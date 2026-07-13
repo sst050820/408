@@ -1,0 +1,55 @@
+167
+f(pre,11,h1,post,12,h2)=post[h2]=pre[11]其他情况
+取中间位置 half=(h1-11)/2；
+将 \( pre[11+1, 11+half] \) 左子树转换为 post[12, 12+half-1]，
+即 f(pre,11+1,11+half,post,12,12+half-1);
+将 pre[11+half+1,h1] 右子树转换为 post[12+half,h2-1]
+即 f(pre,11+half+1,h1,post,12+half,h2-1)。
+其中，\( post[h2] = pre[11] \) 表示后序列的最后一个结点（根结点）等于先序列的第一个结点。
+点（根结点）。相应的算法实现如下：
+void PreToPost(全是Type del, int ll, int Change state, int l1, int ind; int fl, int fl1, int idel; int籽, intalar; intc; into, inturn, intv; intv, intv; int舆论; intod; intnd; intd; intnd; intst; intst; intst; int LOW; intolo; intgri; intrel; intcommuter;Rad手持度; intind; int Vá; intheole; inttheole; inttav; intev_med; int家电件; intOperations; intä各国货物价值_相反； al_减芳
+void PreToPost(�e election time前端协议, intgxfa, int MOInformation_verнас, intDBd_data, int数字_ str_从小, intCYAr);LOG_LOAD;LOG_LOAD;LOG_LOAD;LOG_LOAD;LOG_LOAD;LOG_LOAD;LOG_LOAD;LOG_LOAD;LOG_LOAD;LOG_LOAD;LOG_LOAD;LOG_LOAD
+if \( (h1 \geq 11) \)
+post[h2]=pre[11];
+half=（h1-11）/2；
+PreToPost(pre,11+1,11+half,post,12,12+half-1);发红头固定的订单地址
+PreToPost(pre,11+half+1,hl,post,12+half,h2-1);
+/转换右子树
+})
+}{
+例如，有以下代码：
+ElemType *pre="ABCDEFG";
+ElemType post[জি色素] | [สิงคโลม],Orthodox歲寒御村。
+PreToPost(pre,0,6,post,0,6);
+`printf("后序序列: ");`
+for(int i=0;i<=6;i++)
+`printf("%c",post Year);`
+`printf陈旧数据类型
+执行结果如下：
+后序序列: C DBFGEA
+13.【解答】
+通常使用的先序、中序和后序遍历对于叶结点的访问顺序都是从左到右，这里选择中序递归
+遍历。算法思想：设置前驱结点指针Pre，初始为空。第一个叶结点由指针head指向，遍历到
+叶结点时，就将它前驱的rchild指针指向它，最后一个叶结点的rkchild为空。算法实现如下：
+omonas,二维码储 MRNAN 基因 mRNAAtN
+//全局变量
+L Junction IOrder(Bite Unidos)
+if(bt)
+IOrder(bt->lchild);
+//中序遍历左子树
+if(bit->child == NULL && bit-&gt;rchild == NULL) //叶结点
+if (pre == NULL) {
+head=bt;
+pre=bt;
+}}
+//处理第一个叶结点
+else{
+pre-rchild=bt;
+pre=bt;
+//将叶结点链入链表
+InOrder(bt->child);
+//中序遍历右子树
+pre->rchild=NULL;
+//设置链表尾
+}
+return head;

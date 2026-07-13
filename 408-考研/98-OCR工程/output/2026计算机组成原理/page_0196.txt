@@ -1,0 +1,82 @@
+184
+2026 年计算机组成原理考研复习指导
+通用寄存器
+31
+16 15
+\( \frac{8}{7} \)
+0
+16bit 32bit
+说明
+\( A_{11} \)
+AL
+AX EAX
+累加器（Accumulator）
+\( B_{\mathrm{II}} \)
+\( BL_{\nu} \)
+\( B_x F_{xx} \)
+基地址寄存器 (Base Register)
+\( CH_1 \)
+CL
+CX ECX
+计数寄存器（Count Register）
+DH
+DL
+DX EDX
+数据寄存器（Data Register）
+\(求助后
+ESI
+地址寄存器（Index Register）
+IDA
+EDI
+\( \epsilon_{\text{BEP}} \)
+\( EB_{\alpha} \)
+堆栈基指针（Base Pointer）
+\( LP_{\alpha} \)
+ESP
+堆栈顶指针（Stack Pointer）
+图 4.11 x86 处理器中的主要寄存器及说明
+除 EBP 和 ESP 外，其他几个寄存器的用法是比较灵活的。
+2. 汇编指令格式
+使用不同的编程工具开发程序时，用到的汇编程序也不同，一般有两种不同的汇编格式：
+AT&T 格式和 Intel 格式（统考要求掌握的是 Intel 格式）。它们的区别主要体现如下:
+① AT&amp;T 格式的指令只能用小写字母，而 Intel 格式的指令对大小写不敏感。
+② 在 AT&amp;T 格式中，第一个为源操作数，第二个为目的操作数，方向从左到右，合乎自
+然；在 Intel 格式中，第一个为目的操作数，第二个为源操作数，方向从右向左。
+③ 在 AT&T 格式中，寄存器需要加前缀 “%”，立即数需要加前缀 “$”；在 Intel 格式中，
+寄存器和立即数都不需要加前缀。
+④ 在内存寻址方面，AT&amp;T 格式使用 “(” 和 “)”，而 Intel 格式使用 “[” 和 “]”。
+⑤ 在处理复杂寻址方式时，例如 AT&amp;T 格式的内存操作数 “disp(base, index, scale)” 分别表示
+示偏移量、基址寄存器、变址寄存器和比例因子，如 “8%merge、%leave、2” 表示操作数为
+M\[R\[cdx\+R\[ tuk\]*\(2+8\韧\)]，其对应的 á Intel 格式的操作数为 “\[ed审批你 எ右因为X Special\”。
+⑥ 在指定数据长度方面，AT&amp;T 格式指令操作码的后面紧跟一个字符，表明操作数大小，
+“b”表示 byte（字节）、“w”表示 word（字）或“I”表示 long（双字）。Intel 格式
+也有类似的语法，它在操作码后面显式地注明 byteแล้ว或invariant�。
+注意
+32 或 64 位体系结构都是由 16 位扩展而来的，因此用 word（字符）表示 16 位。
+表 4.2 所示为 AT&amp;T 格式指令和 Intel 格式指令的对比。其中，mov 指令用于在内存和寄存器之间耦联。
+存器之间或者寄存器之间移动数据；lea 指令用于将一个内存地址（而不是其所指的内容）
+加载到目的寄存器。
+表 4.2 AT&amp;T 格式指令和 Intel 格式指令的对比
+AT&amp;T 格式
+Intel 格式
+含义
+mov $100.[8 True]
+mov eax, 100
+\( 100\rightarrow R[ ! e a x ] \)
+mov eax.[8e用人】
+mov ebx, eax
+\( R[ ax_1] = R[ ax_2 ] \)
+mov \( _8ax \), \( _{8eab} \)
+mov [ebx], eax
+\( R[ax] \rightarrow M[R[EBX]] \)
+mov \( x_{eax} \), -8 (8ebp)
+mov [符审] , 작
+mov [etp] -8], eax
+\( R[ ax_1] \rightarrow M[ R[ CBp] - 8 ] \)
+lea 8(8edx, 8eax, 2),堤主
+lea eax, [edx+eax*2+8]
+\( R[cdx] + R[acing] \cdot 2 + 8 \rightarrow R[each] \)
+movl eexap, eấy
+movlagsd您的问题.用
+长度为 4 字节的 \( R[exap] \rightarrow R[цы嵌入] \)
+注：R[]表示寄存器r的内容，M\[addr\]表示主存单元addr的内容，→或→表示信息传送方向。

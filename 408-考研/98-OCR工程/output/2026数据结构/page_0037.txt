@@ -1,0 +1,55 @@
+使得fc=a=91，HenneSRV=94
+首模型表: {})，其参数为 \( S_{i-j} = \sum_{j} S_{j} \)
+08.【解答】
+算法思想: 顺序存储的线性表递增有序, 可以顺序查找, 也可以折半查找。题目要求 “用最
+少的时间在表中查找数值取为 \( x \) 的元素”，这里应使用折半查找法。
+本题代码如下:
+void SearchExchangeInsert(ElementType A[], ElementType x){
+int low=0, high=n-1, mid;
+// low 和 high 指向顺序表下界和上界的下标
+while(low<=high){
+mid = \( (\text{low} + \text{high}) / 2 \);
+//找到 \( x \), 退出 while 循环
+if(A[mid]==x) break;
+else if(A[mid]<x) low=mid+1; //到中点 mid的右半部去查
+else high=mid - 1;
+//到中点mid的左半部去查
+} //下面两个if语句只会执行一个
+if(A[mid] == x && mid != n - 1) {
+//若最后一个元素与x相等，则不存在与其后
+继续交换的操作
+t = A[mid]; A[mid] = A[mid + 1]; A[mid + 1] = t;
+}
+if(low>high){
+//查找失败, 插入数据元素 ×
+for(i=n-1; i&gt;high; i--) A[i+1]=A[i]; //后移元素
+A\[i+1\]=x;
+//插入 ×
+}
+//结束插入
+:
+本题的算法也可写成三个函数：查找函数、交换后继函数与插入函数。写成三个函数的优点
+是逻辑清晰、易读。
+09.【解析】
+1）算法的基本设计思想。
+使用三个下标变量从小到大遍历数组。当三个下标变量指向的元素相等时，输出并向前推进
+指针，否则仅移动小于最大元素的下标变量，直到某个下标变量移出数组范围，即可停止。
+2）算法的实现。
+void samekey(int A[], int B[] , int C[], int n) {
+int i = 0, j = 0, k = 0;
+//定义三个工作指针
+while\( i<n\&j<n\&k<n\ Bau = Ca}另一个使他//相同则输出，кастаемкаderos!!!
+if(A[i] == B\[j]\&\&B\[j責職 black\])? Peghisfflag:
+printf("%d\\n", A[i]);
+iplicant।; colect:
+}else{}
+int maxNum = max(A[i], max(B[j], C[k]))
+if(A[i]<maxNum) i++;
+if(B[j]<maxNum) j++;
+if(C[k]&lt;maxNum) k++;
+}
+}
+3）每个指针移动的次数不超过 \( n \) 次，且每次循环至少有一个指针后移，所以时间复杂度为
+\( O(n) \)，算法只用到了常数个变量，空间复杂度为 \( O(1) \)。
+10.【解答】
+1）算法的基本设计思想。

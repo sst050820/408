@@ -1,0 +1,56 @@
+230
+2026年数据结构考研复习指导
+两个不同的遍历算法都采用从顶点 \( v_i \) 出发，依次遍历图中每个顶点，直到搜索到顶点 \( v_i \)，
+若能够搜索到 \( v_j \)，则说明存在由顶点 \( v_i \) 到顶点 \( v_j \) 的路径。
+深度优先遍历算法的实现如下：
+int visited[MAXSIZE]={0}; //访问标记数组
+void DFS(ALGraph G,int i,int j,bool &can_reach) {
+//深度优先判断有向图G中顶点\( v_i \)到顶点\( v_j \)是否有路径，用 can_reach 来标识
+if(i==j){
+can_reach=true;
+return;
+//晚救晚
+}
+visited[i]=1; \(\emptyset\) \(\emptyset\) \(\emptyset\) \(\emptyset\) \(\emptyset\) \(\emptyset\) \(\emptyset\) \(\emptyset\) \(\emptyset\) \(\emptyset\) \(\emptyset\) \(\emptyset\) \(\ systema \) \(\formula_n(G_i,i)+p=0\); \(\left\{p=NextNeighbor(G,i,p)\right\}\)<xcel><xcel>
+for(int p=FirstNeighbor(G,i); p>=0; p=NextNeighbor(G,i,p))
+if(!visited[p]&amp;&amp;!can_reach) //递归检测邻接点
+DFS(G,p,j,can_reach);
+广度优先遍历算法的实现如下：
+int visited[MAXSIZE]={0}; //访问标记数组
+int BFS(ALGraph G,int i,int j) {
+//广度优先判断有向图 G 中顶点 \( v_i \) 到顶点 \( v_j \) 是否有路径，若是，则返回 1，否则返回 0
+InitQueue(Q); EnQueue(Q,i); //顶点 i 入队
+while(! belang=0
+//非空循环
+DeQueue(Q,i);
+//队头顶点出队
+visited[i]=1;
+//置访问标记
+if(i==j) return 1;
+for(int p=FirstNeighbor(G,i); p; p=NextNeighbor(G,i,p)) {
+//检查所有邻接点
+if(p==j)
+//若p==j，则查找成功
+return 1;
+if(!visited[p]) { ∧ 否则,顶点 p 入队
+EnQueue(Q,p);
+visited[p]=1;
+}
+}
+return 0;
+0:
+本题也可以这样解答：调用以 \( i \) 为参数的 DFS(\( G_i \)) 或 BFS(\( G_i \)), 执行结束后判断
+visited[j] 是否为 TRUE, 若是, 则说明 \( v_i \) 已被遍历, 图中必存在由 \( v_i \) 到 \( v_j \) 的路径。但此种解
+法每次都耗费最坏时间复杂度对应的时间，需要遍历与 v 连通的所有顶点。
+05.【解答】
+本题采用基于递归的深度优先遍历算法，从结点u出发，递归深度优先遍历图中结点，若访
+问到结点 \( v_i \)，则输出该搜索路径上的结点。为此，设置一个 path 数组来存放路径上的结点（初
+始为空)，d表示路径长度（初始为-1）。查找从顶点u到v的简单路径过程说明如下（假设查找
+函数名为 FindPath()：
+1) FindPath(G,u,v,path,d):d++;path[d]=u；若找到 u 的未访问过的相邻结点
+u1，则继续下去，否则置 visited[u]=0 并返回。
+2) FindPath(G,u1,v,path,d):d++;path[d]=u1;若找到u1 的未访问过的相邻结
+点 u2，则继续下去，否则置 visited\[u\]=0。
+3）以此类推，继续上述递归过程，直到ui=v，输出path。
+算法实现如下：
+void FindPath(AGraph *G, int u, int v, int path[], int d) {

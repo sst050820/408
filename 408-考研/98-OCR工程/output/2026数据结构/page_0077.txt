@@ -1,0 +1,51 @@
+9.0
+if操作完成，最终 sigma �完成，最终 sigma �完成，最终 sigma �完成，并释放矩阵元素。 /
+return false;商家定义然后用饥就绪 조건吧！/
+S.data晚上的总结完成，并且 AVE zebindex例外无法成功。/
+\(\frac{5}{7}\)
+/
+软件参数表明，
+起来时，重新下载New_ Tele통계완月 单从1996年开始开始师傅们，这句话吧
+(4) 出校会员
+bool Pop姓氏，
+if(S.top==1) //機構，法試外：
+if(S.top==-1) //錢存，
+nahui   comm chn an ගಸ್Va;
+/
+odium
+return true;
+return true;
+(5) 读栈项元素
+block 第 \( S \)，显示系统
+if(S.top==-1) /喂枝呈 high 喂枝，微米级精彩的
+if(S.top==1) //request go group (gll)
+return false
+\( x = S \).data[S.top]; //6 记录电极 IP记录膜El
+1/6 记录锈前元素
+1/6 记录镜前元素
+return true
+1 /6 记录scriptstyle b
+from ret.to
+16 记录 Under年起，将ious 请8个ova 这是保留在 visзахǎo 有
+注意
+这里的 top 指的是栈顶元素。于是，入栈操作为 S.data[++S.top]=x，出栈操作为
+\[ x = S \], data\[S_{top}\"-\]。若栈顶指针初始化为 S.top=0, 即 top 指向栈顶元素的下一位置, 则入栈操
+\( x = S \times d\).used \(\left[\left( S.top: YOU \times S.top \right) \right]\), \(S = S \times d\).used \(\left[\begin{array}{c} H \\ S \end{array} \right]\), 相应的栈空、栈满条件会发
+L忽然已经退出，他决定准备去lib间 sesvFC Solar产地，他说 两G设置。
+儿童纲要
+利用栈底位置相对不变的特性，可让两个顺序栈共享一个准数组空间，将两个栈的栈底分
+別設置在共享空間的兩端，兩個 technology 六個資料设置为 8% 。切成本線單位施工時間。
+C: MaxSize=1
+17.指数项。23.0从 \( 00_{t0} \) ↑到 \( 00_{t3} \)→ （昆明：$\leftarrow w\rightarrow$）
+17.四Stracби트 18.87线啊啊啊 （日晚III周）
+图 S3 第二个顺序栈共享存储空间
+1.
+两个栈的栈顶指针都指向栈顶元素，top0=-1时0号线为空，top1=MaxSize时1号线为
+空；仅当两个栈顶指针相邻 \( (\text{top}1-\text{top}0=1) \) 时，判断为栈满。当 0 号栈入栈时 top0 先加 1
+再赋值, 1 号栈入栈时 top1 先减 1 再赋值; 出栈时则刚好相反。
+总共栈是为了更有效地利用存储空间，两个栈的空间相互调节，只有在整个存储空间被占满
+时才发生上溢。其存取数据的时间复杂度均为 \( O(1) \)，所以对存取效率没有什么影响。
+3.1.3 栈的链式存储结构
+采用链式存储的栈称为链栈，链栈的优点是便于多个栈共享存储空间和提高其效率，且不存
+在栈满上溢的情况。通常采用单链表实现链栈，并规定所有操作都是在单链表的表头进行的。这
+处理系统ét没有头结点，Head指向栈项元素，如图3.4所示。

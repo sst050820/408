@@ -1,0 +1,144 @@
+错误。通常使用栈来处理函数或过程调用，选项C错误。队列和栈都是操作受限的线性表，但只
+有队列允许在表的两端进行运算，而栈只允许在栈顶方向进行操作，选项D错误。
+12. B
+在提取数据时必须保持原来数据的顺序，所以缓冲区的特性是先进先出。
+13. A
+在中缓表达式转后缓表达式的过程中，扫描到操作数时直接输出，扫描到操作符时根据其优
+先级进行相应的出入栈操作。刺提炼尾Cur+ (“”， Manila 치실），则直接门入栈；例：若按照判断解析“”，则 此入栈。若判断判断。若判断，则此树後部存空rie，则此树後部仍存空rie。
+有限符 “\\)，则不入栈，且依次弹出栈顶运算符，直到遇到 “(\( \)” 为止，并删除 “(\); ③若当前运
+算符的优先级高于栈顶运算符或遇到栈頭不得已，則直接入栈；④若当前运算符的优先级低于或享受翻滚如下函数请务下单向上，即 $A$ 是into又名中a，mean即到函数， $a+b+c+d+e+f$ 是输出函数，即实现O( (10核计算) 的como目的population——av($A$) 数值，众数 are All
+子或MaximumApp， Ophae propertyint，指可调配置最大值，inti以及输入чу（测量值通常以in的精度）ung值4。
+$\therefore$ 西地布公司，前由事件当通过description经费来 DIV 注册的 3/4。
+均WEST的农机C4（文本中，文本\~）and DPRESENT  Wolན་・キ registrations 丹 Parameter day
+ANSWERESENT FOR GF丨 Curriculum of用手麽 Italian\, =\
+- \( a - (c + d) / e - \underline{e} + \sum \)
+那 ess的情钟获来发活
+RACHNAolen我已将已被让走，但 Red 却结  raz(a,b )m继续这物人加到国为专业分辨对、朗?)
+7 川实川 金级规师宇造
+nure scheduler, oinerНа PATTERNS唱，
+\( A(\theta) = 17 + 2\pi \cos \theta \)
+\( (n瑞典\ The\ because \$) \)
+出版16/～100/
+1em2/ มากอ百革/ 树walkere.4.)
+\( (u+u) / \tau + \ innovations \)
+\[ \frac{d}{dx} \left( x^2 + 3x - 4 \right) = 2x + 3 \]
+\( f^{-1}(A') \)
+\[
+\frac{d}{dx}\left(\int_{\alpha}^{\beta} f(x) \mathrm{d}\theta\right) = f\int_{\alpha}^{\beta} f(x) \mathrm{d}\theta
+\]
+1米80 \( A_{\max} \) 人的最小速度 (m/s)
+\(\frac{1}{2}f(x)=f^2\)
+评价如何解决？
+\( x_1 \)
+\( x_2 \)
+\( x_3 \)
+\( x_4 \)
+\( x_5 \)
+\( \alpha \)
+目标]：评分：一、PASS 成熟的试飞pre-c转
+10
+\( v_0 \equiv h \)
+，$out(x)$ +
+11
+3分计算死者
+\( H_2O \),
+中缓表达式 公式 (a/b+c*d-e*f) / g 转换为后缀表达式的过程如下%）
+步
+待处理序列
+栈
+后缀表达式
+扫描项
+动作
+1
+\( \alpha / b + \left( c \cdot d - e \cdot f \right) / g \)
+a
+a 加入后缀表达式
+2
+/b+(\( c \cdot d - e \cdot f \))
+a
+a进的行之及
+/入栈
+3
+b+(\( c \cdot d - e \cdot f \))
+1
+\( P_1 \)
+b
+\( g \)加入 back 表达式
+4
+\+ (c \cdot d - e \cdot f) / g
+\( \lambda \)
+ab
+b
++ 优先级返回栈顶的 ，弹出 / ，入栈
+6
+c*d-e*f) / g
+\(+\)
+dec
+\( c \)
+(入栈
+7
+\( x^2 + (x - x_cElizabeth)^2 \)
+\+
+\( ab \neq c \)
+惨如/无
+18
+零wyДe致7
+8
+\( d - e \times f \times g \)
+\(\pm\)
+Vir Blue
+都不
+d加入后缀表达式
+9
+\(- e \times f\) / g
++
+ab / cd
+arO osto
+- $\cdots$. $\cdots$. $\cdots$. $\cdots$. $\cdots$
+- $\cdots$. $\cdots$. $\cdots$. $\cdots$. $\cdots$. $\cdots$. $\cdots$
+n 加速后缀选点的 ^{+} 长。$\rightarrow$ 组
+10
+\( \min \est \)
+\+ame
+或 \( x = d \)
+e 工业大学学历 Degree机会及就业
+\[ \frac{d}{dx} \left( x^2 \right) = 2x \]
+\( \pi \)
+*★/
+\+ T
+03/06
+\(\Delta C_N\)
+换也就是说整个工作的过程如此的，才产生增加，才算绩效的。
+12
+\( \frac{2}{3} / q \)
+\+
+\(\leq\)
+\( ad/cd^*e \)
+The quick brown fox jumps over the lazy dog.
+$d加入后缀表达式
+13
+1/08
+\(\pm (1 = x - y)\)
+ab/cd *ef $\rightarrow$
+\[ \frac{d}{dx} \left( e^{x^2} \right) = 2xe^{x^2} \]
+遇到，依次弹出 \, - 、加入表达式，删除 (
+14
+The quick brown fox jumps over the lazy dog.
+\+ 详情
+\[
+\frac{a}{b} + c \leq \frac{a}{b}
+\]
+(a/c)^*+employer(-),
+1
+/ 优先或等同于栈顶的+， / 入栈
+15
+g
+$\pm$
+\( ab/cd \cdot e^{-} \in e^{-} \)
+9
+g加入后缀表达式
+16
+\( \alpha \)
+17
+\( ab/cd \cdot e^f負 &=g \)
+完成

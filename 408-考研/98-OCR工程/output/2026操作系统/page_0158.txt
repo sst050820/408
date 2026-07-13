@@ -1,0 +1,66 @@
+2章 进程与线程
+147
+bowl=min(n-1, m);
+//bowl≤n-1,确保不死锁
+CoBegin
+while(TRUE){
+//哲学家i的程序
+思考；
+P(bowl);
+//取碗
+P(chopsticks[i]);
+//取左边筷子
+\( P(\text{chopsticks}[(i+1)\text{n}]) \); //取右边筷子
+就餐；
+\( V(\text{chopsticks}[i]) \);
+\( V(\text{chopsticks}[(i+1)\text{n}]) \);
+\( V(b o w l); \)
+CoEnd
+24.【解答】
+本题是一个典型的利用信号量实现前驱关系的同步问题。首先画出各个操作之间的执行顺序
+图，可以看出，A、B、D的执行不需要任何前提条件。执行完A和B之后才能执行C，存在两
+对同步关系：A→C 和 B→C，设置两个同步变量 SAC=0 和 SBC=0，完成 A 和 B 之后分别执行
+V(SAC)和V(SBC)，表示A或B已完成；执行C之前需要执行P(SAC)和P(SBC)，检查A和B
+是否完成。执行完C 和D之后才能执行E,也存在两对同步关系：C→E 和 D→E，因此再设置两
+个同步变量SCE=0和SDE=0，完成C和D之后分别执行V(SCE)和V(SDE)，表示C或D已完
+成；执行E之前需要执行P(SCE)和P(SDE)，检查C和D是否完成。
+A
+C
+E
+B
+D
+semaphore SAC 0；
+/控制A和C的执行顺序
+四个月六嘉贤的日
+semaphore SBC = 0;
+/控制B和C的执行顺序
+semaphore SCE = 0;
+/控制C和E的执行顺序
+semaphore SDE = 0;
+/控制D和E的执行顺序
+5个操作可描述为如下。
+CoBegin
+A用什么
+完成动作A；
+V(SAC);
+//实现A、C之间的同步关系
+）
+B({
+完成动作B；
+V(SBC);
+//实现B、C之间的同步关系
+}
+C}(
+//C必须在A、B都完成后才能完成
+P(SAC);
+P(SBC);
+完成动作C；
+V(SCE);
+//实现C、E之间的同步关系
+}
+D)(
+完成动作D；
+V(SDE);
+//实现D、E之间的同步关系
+}
+E秉 implementing 烧炉料成系统 system

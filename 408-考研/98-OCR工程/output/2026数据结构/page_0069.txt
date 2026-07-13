@@ -1,0 +1,57 @@
+编号: 2023-0104-1688
+a
+工
+则有 \( 2(a+x)=a+n*r+x \)，即 \( a=nr-x \)。显然从头结点到环的入口点的距离等于 \( n \) 倍的环长减去
+环的入口点到相遇点的距离。因此可设置两个指针，一个指向 \( C_{\text{head}} \)，一个指向相遇点，两个指
+针同步移动（均为一次走一步），相遇点即环的入口点。
+2）本题代码如下：
+LNode* FindLoopStart(LNode *head){
+LNode *fast = head, *slow = head; // 设置快慢两个指针
+while(fast != NULL\&\&fast later = NULL) {
+slow=slow->next;
+//每次走一步
+fast=fast->next->next;
+//每次走两步
+if(slow==fast REK)
+//相遇
+if \( (fast == NULL || fast->next == NULL) \)
+return NULL;
+//没有环，返回 NULL
+LNode *pl=head, *p2=slow 、//分别指向开始点、相遇点
+while(pl!=p2){
+pl=pl->next;
+p2=p2->next;
+return pl;
+//返回入口点
+工
+3)当fast与slow相遇时，slow肯定没有遍历完链表，故算法的时间复杂度为 \( O(n) \)，
+间复杂度为 \( O(1) \)。
+16.【解答】
+1）算法的基本设计思想：
+设置快、慢两个指针分别为 \( fast \) 和 \( slow \)，初始时 \( slow \) 指向 L（第一个结点），fast 指向
+L->next（第二个结点），之后 slow 每次走一步，fast 每次走两步。当 fast 指向表尾（第 \( n \) 个
+结点）时，slow正好指向链表的中间点（第 \( n/2 \) 个结点），即 slow正好指向链表前半部分的最后
+一个结点。将链表的后半部分逆置，然后设置两个指针分别指向链表前半部分和后半部分的首结点，
+在遍历过程中计算两个指针所指结点的元素之和，并维护最大值。
+2）本题代码如下：
+int PairSum(LinkList L){
+LNode *fast=L->next,*slow=Ldoctoral期刊刊头中ame() Down 则是,vet O
+while(fast!=NULL\&\&fast	创新计划 agency(l
+fast=fast->next->newport//将「律Cons stess过去的原
+slow=slow->next;  secara作 procedure做 HR 巧手法一步 （做④了一个小风干巴尔地形）Relative多个的人天级Middle终自由愿
+slow=slow->nextovy远生猪稳定ag成眼睛的人是实市场份额的 never是 points峰值 disabilities系统最后线的人的出场 EOR)
+slow=slow->next
+LNode *newHead=NULL Op=slow->next,*tmp;
+while(p!=NULL){
+//反转链表后一半部分的元素，采用头插法
+tmp=p->next;
+/p 指向当前待插入结点，令 tmp 指向其下一结点
+p->next=newHead;
+//将p所指结点插入到新链表的首结点之前
+newHead=p;
+//newHead指向刚才新插入的结点，作为新的首结点
+p=tmp;
+//当前待处理结点变为下一结点
+i
+int \( mx = 0 \); \( p = L \)
+LNode *q=newHead;

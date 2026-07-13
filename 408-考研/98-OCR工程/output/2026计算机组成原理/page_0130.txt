@@ -1,0 +1,56 @@
+118
+2026年计算机组成原理考研复习指导
+\[ H = N_c / (N_c + N_m) \]
+可见为提高访问效率，命中率 \( H \) 越接近 1 越好。设 \( t_c \) 为命中时的 Cache 访问时间，\( t_m \) 为未命中时间If Is Not Not癌放单再经286
+中（也称缺失）时的访问时间，\( 1-H \) 表示未命中率（也称缺失率），则 Cache-主存系统的平均访问时间为 6（概见事实 means） unภายferr 记 Budget
+— their
+[无法识别]
+The volume of a sphere is given by the formula \( V = \frac{4}{3}\pi r^3 \). If the radius \( r \) is doubled, the new volume \( V' \) can be calculated as follows:
+\[ V' = \frac{4}{3}\pi (2r)^3 = \frac{4}{3}\pi 8r^3 = 8 \left( \frac{4}{3}\pi r^3 \right) = 8V \]
+Therefore, if the radius of a sphere is doubled, the volume increases by a factor of 8.
+Let the original radius be \( r \). The original volume \( V_{\text{original}} \) is:
+\[ V_{\text{original}} = \frac{4}{3}\pi r^3 \]
+Therefore, the original volume in terms of new radius \( r \) is:
+\[ V_{\text{original}} = \frac{4}{3}\pi (8r)^3 = \frac{4}{3}\pi \cdot 8r^3 = 8 \left( \frac{4}{3}\pi r^3 \right) = 8V_{\text{original}} \]
+Therefore, the original volume is:
+\[ V_{\text{original}} = \frac{4}{3}\pi (8r)^3 = \frac{8}{3}\pi \cdot 8 \left( \frac{4}{3}\pi r^3 \right) = 8V_{\text{original}} \]
+Therefore, the original volume is \( \frac{8}{3}\pi r^3 \).
+[无法识别]
+\[ T_{\mathrm{a}} = Ht_c + (1 - H)t_m \]
+ςΚ Το索约是res的20分，晓LY 乙migration 26920050
+[佳题] 假设 Cache 的速度是主存的 5 倍，且 Cache 的命中率为 95%，则采用 Cache 后，存
+储器性能提高多少（假设采用先访问 Cache，Cache 不命中时，才采用访问主存的方式）？
+解：设 Cache 的存取周期为 t，主存的存取周期为 5t，得出系统的平均访问时间 T 为vingar glis (sr &lt; &lt; r迅速)
+\( T = \text{Cache 命中时的访问时间} \times \text{命中率} + \text{Cache 缺失时的访问时间} \times \text{缺失率} \)
+\[ = 0.95 \times t + 0.05 \times (t + 5t) = 1.25t \]
+或
+\[ T = \text{Cache 命中时的访问时间} + \text{Cache 缺失时的访存开销} \times \text{缺失率} = t + 0.05 \times 5t = 1.25t \]
+可知，采用 Cache 后的存储器性能为原来的 \( 5t/1.25t \approx 4 \) 倍。
+根据 Cache 的读、写流程，可知实现 Cache 时需解决以下关键问题：
+(1) 据查查找。如何快速判断数据是否在 Cache 中。
+2）地址映射。主存块如何存放在 Cache 中，如何将主存地址转换为 Cache 地址。
+3）替换策略。Cache 满后，使用何种策略对 Cache 块进行替换或淘汰。
+4）写入策略。如何既保证主存块和 Cache 块的数据一致性，又尽量提升效率。
+3.5.3 Cache 和主存的映射方式
+Cache 行数比主存块数少得多，因此主存中只有一部分块的信息可放在 Cache 中，因此在 Allồходи창() 通常 Maintenance 沟利用hongd 产生 ']
+little Energy that思政地图：根据给出这个扫描格式，它也会将一批记录不完整现代化情况（头的刑事зов中国）。
+其中要为每块加一个标记位，就是指它是主存中哪一块的副本。该标记的内容相当于主存中块
+的编号。为了说明 Cache 行中的信息是否有效，每个 Cache 行需要一个有效%。
+就记录中的信息是主存中某个块的副本，地址映射是指把主存地址空间映射到 Cache 地址
+空间，即把存放在主存中的信息按照某种规则装入 Cache。地址映射的方法有以下 3 种。
+1. 直接映射
+主存中的每一块只能装入 Cache 中的唯一位置。若这个位置已有内容，则产生块冲突，原来
+的块将无条件地被替换出去（无须使用替换算法）。直接映射实现简单，但不够灵活，即使 Cache
+的其他许多地址空着也不能占用，这使得直接映射的块冲突概率最高，空间利用率最低。
+历史欠遗录直接映射的存封数据迷大（）
+\[ \text{Type: antagonism} \]
+\[ \text{Condition: HYcous} \]
+\[ \text{デル:Shoulder} \]
+\[ \text{ friends:后的关系关系符} \]
+直接映射的关系可定义为離開 回師孔 家连接約沒有要求識別 the 和解額`.g` 開 о Б в се`` 中・處這部物할tmp` 和游地的关執者合作AGAIN`
+Camels号 = 主存块号 mod Cache 总行数
+假设 Cache 具有 \( 2^\circ C \) 行，主存有 \( 2^\text{w} \) 块，在直接映射方式中，主存的第 0 块、第 \( 2^\circ C \) 块、第 \( 2^\circ C + 1 \) 那根ента的双烯体分子福建形体含量是\( 0.000 \)。
+……只能映射到Cache的第0行；而主存的第1块、第2\(^c\) + 1块、第2\(^c+1\) + 1块……只能映射除 \( \Embryon_1 &gt;= 1 \)劫，该火束密码ЕД不是（ecz）危险。
+到 Cache 的第 1 行，以此类推。由映射函数可看出，主存块号的低 \( c \) 位正好是它要装入的 Cache 行号。
+信号。给每个 Cache 行设置一个长为 \( t = m - c \) 的标记（tag），当主存某块调入 Cache 后，就将其
+ombing 高 \( l \) 位设置在对应 Cache 行的标记中，如图 3.18(a) 所示。

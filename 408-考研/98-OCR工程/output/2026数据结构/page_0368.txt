@@ -1,0 +1,55 @@
+3562026 数据结构考研复习指导
+快速排序一样的划分操作后，表 \( L[1{\ldots}n] \) 被划分为 \( L[1\ldots m-1] \) 和 \( L[m+1\ldots n] \)，其中 \( L(m) = \text{pivot} \)。三
+讨论 \( m \) 与 \( k \) 的大小关系:
+1) 当 \( m = k \) 时, 显然 pivot 就是所要寻找的元素, 直接返回 pivot 即可。
+2) 当 \( m < k \) 时, 所要寻找的元素一定落在 \( L[m+1…n] \) 中, 因此可对 \( L[m+1…n] \) 递归地查找第
+\( k - m \) 小的元素。
+3) 当 \( m > k \) 时, 所要寻找的元素一定落在 \( L[1\ldots m-1] \) 中, 因此可对 \( L[1\ldots m-1] \) 递归地查找第
+\( k \) 小的元素。
+该算法的时间复杂度在平均情况下可以达到 \( O(n) \)，而所占空间的复杂度则取决于划分的方
+法。算法的实现如下:
+int \( kth_{\text{ilty}} \text{(int } a\mid\text{int } low, \text{int high, int } k\mid\text{f} \)
+\(\left特殊的笛卡尔向量\right)\)
+int \( \text{pivot} = a[low] \);
+int low\(_{\绸缬}\) = low;
+//由于下面会修改 low 与 high，在递归时又要用到它们
+int high \( temp = high; \)
+while (low<high) {
+while (low&lt;high&&a[high] &gt;= pivot)
+--high;
+a\[low\] = a\[high\];
+while (low&lt;high&&a\[low\]&lt;= pivot))
++ + low;
+a\[high\] = a\[low\];
+}
+a\[low\] = pivot;
+//上面为快速排序中的划分算法
+//以下是本算法思想中所述的内容
+if\( (low == k) \)
+//由于与 \( k \) 相同，直接返回 pivot 元素
+return a\[low\];
+else if\( (low > k) \)
+//在前一部分表中递归寻找
+return \( kth_{\text{ bean}} \) aLow \( temp, low-1, k \);
+else
+//在后一部分表中递归寻找
+return \( kth_{\text{ stem}} \) aLow +1, high temp, k);
+}
+03.【解答】
+算法思想：顺序扫描线性表，将红色条块交换到线性表的最前面，蓝色条块交换到线性表的
+最后面。为此，设立三个指针，其中，\( j \) 为工作指针，表示当前扫描的元素，\( i \) 以前的元素全部为
+红色，\( k \) 以后的元素全部为蓝色。根据 \( j \) 所指示元素的颜色，决定将其交换到序列的前部或尾部。
+初始时 \( i = 0 \)，\( k = n - 1 \) ，算法的实现如下:
+typedef enum{RED,WHITE,BLUE} color; //设置枚举数组
+void Flag_Arrange(color a TYPE, int \n) {
+int \( i = 0 \), \( j = 0 \), \( k = n - 1 \) ;
+while\(_j\)
+switch\(a\)[j]{\//判断条块的颜色
+case RED: Swap(a[i],a[j]);i++;j++;break;
+//红色，则和 i 交换
+case WHITE: j++;break;
+case BLUE: Swap(a\[j\],a\[k\]); k--;
+//蓝色，则和 \( k \) 交换
+//这里没有 \( j++ \) 语句，以防止交换后 \( a[j] \) 仍为蓝色
+}
+例如，将元素值正数、负数和零排序为前面都是负数，接着是 0，最后是正数，也用同样的
