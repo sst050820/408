@@ -1,0 +1,34 @@
+# 概率论讲义 OCR 页面渲染
+
+本目录用于把 `数学一/01-基础讲义/27张宇基础30讲概率.pdf` 渲染成逐页 PNG，供后续 OCR 使用。脚本只读取源 PDF，不会修改、覆盖或重写源文件。
+
+## 页码与断点续跑
+
+- `FirstPage` 和 `LastPage` 都使用从 1 开始的物理页码；输出文件相应命名为 `page_0001.png`、`page_0002.png` 等。
+- `LastPage` 默认为 `0`，表示渲染到 PDF 的总页数。
+- 输出目录中已有的非空 PNG 会显示 `SKIP` 并跳过，因此命令中断后可用同一命令继续执行。
+- `work/`、`output/` 和 `tessdata/` 是被 Git 忽略的 OCR 中间产物或本地资源目录。
+
+## 两页冒烟测试
+
+在仓库根目录运行：
+
+```powershell
+& '数学一/98-OCR工程/render-pdf.ps1' -PdfPath '数学一/01-基础讲义/27张宇基础30讲概率.pdf' -OutputDir '数学一/98-OCR工程/work/pages' -FirstPage 1 -LastPage 2
+```
+
+该文件当前报告 `PAGE_COUNT=173`，上述命令生成前两页。
+
+## 完整渲染
+
+省略 `LastPage` 即使用默认值 `0`，渲染至最后一页：
+
+```powershell
+& '数学一/98-OCR工程/render-pdf.ps1' -PdfPath '数学一/01-基础讲义/27张宇基础30讲概率.pdf' -OutputDir '数学一/98-OCR工程/work/pages' -FirstPage 1
+```
+
+如需更高分辨率，可添加 `-Scale 3.0`；默认缩放倍数为 `2.0`。
+
+## 首页面目视检查
+
+在默认 `Scale 2.0` 下，`page_0001.png` 为横向的双页/整幅封面展开图，方向正确，没有旋转；封面、书脊和左右边缘完整，未见内容裁切。标题和正文清晰，左侧较小的介绍文字在原始尺寸下仍可辨认，因此未提高到 `Scale 3.0`。
