@@ -1,0 +1,3382 @@
+{
+  "source": "D:\\study\\408\\90-复习资料\\01-核心教材\\2026数据结构_带书签.pdf",
+  "file_name": "2026数据结构_带书签.pdf",
+  "num_pages": 412,
+  "fingerprints": [
+    "1adefb1d3232e6ed5f5908bdf456d789",
+    "238d99d027e5c4d68879d2b07e03730a"
+  ],
+  "info": {
+    "PDFFormatVersion": "1.7",
+    "Language": null,
+    "EncryptFilterName": null,
+    "IsLinearized": false,
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "IsCollectionPresent": false,
+    "IsSignaturesPresent": false,
+    "ModDate": "D:20250114213749+08'00'"
+  },
+  "metadata": null,
+  "content_disposition_filename": null,
+  "content_length": null,
+  "page_labels": null,
+  "outline": [
+    {
+      "title": "扉页",
+      "depth": 0,
+      "page": 1,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "版权页",
+      "depth": 0,
+      "page": 2,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "本书配套资源介绍",
+      "depth": 0,
+      "page": 3,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "前 言",
+      "depth": 0,
+      "page": 4,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "致 读 者",
+      "depth": 0,
+      "page": 5,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "王道训练营",
+      "depth": 0,
+      "page": 6,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "目 录",
+      "depth": 0,
+      "page": 8,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "第1章   绪论",
+      "depth": 0,
+      "page": 13,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "1.1   数据结构的基本概念",
+          "depth": 1,
+          "page": 13,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "1.1.1   基本概念和术语",
+              "depth": 2,
+              "page": 13,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.1.2   数据结构三要素",
+              "depth": 2,
+              "page": 14,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.1.3   本节试题精选",
+              "depth": 2,
+              "page": 15,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.1.4   答案与解析",
+              "depth": 2,
+              "page": 16,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "1.2   算法和算法评价",
+          "depth": 1,
+          "page": 16,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "1.2.1   算法的基本概念",
+              "depth": 2,
+              "page": 16,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.2   算法效率的度量",
+              "depth": 2,
+              "page": 17,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.3   本节试题精选",
+              "depth": 2,
+              "page": 18,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.4   答案与解析",
+              "depth": 2,
+              "page": 20,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "归纳总结",
+          "depth": 1,
+          "page": 23,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "思维拓展",
+          "depth": 1,
+          "page": 23,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第2章   线性表",
+      "depth": 0,
+      "page": 24,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "2.1   线性表的定义和基本操作",
+          "depth": 1,
+          "page": 24,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "2.1.1   线性表的定义",
+              "depth": 2,
+              "page": 24,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.2   线性表的基本操作",
+              "depth": 2,
+              "page": 25,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.3   本节试题精选",
+              "depth": 2,
+              "page": 25,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.4   答案与解析",
+              "depth": 2,
+              "page": 26,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "2.2   线性表的顺序表示",
+          "depth": 1,
+          "page": 26,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "2.2.1   顺序表的定义",
+              "depth": 2,
+              "page": 26,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.2   顺序表上基本操作的实现",
+              "depth": 2,
+              "page": 27,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.3   本节试题精选",
+              "depth": 2,
+              "page": 29,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.4   答案与解析",
+              "depth": 2,
+              "page": 32,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "2.3   线性表的链式表示",
+          "depth": 1,
+          "page": 41,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "2.3.1   单链表的定义",
+              "depth": 2,
+              "page": 41,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.2   单链表上基本操作的实现",
+              "depth": 2,
+              "page": 42,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.3   双链表",
+              "depth": 2,
+              "page": 47,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.4   循环链表",
+              "depth": 2,
+              "page": 48,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.5   静态链表",
+              "depth": 2,
+              "page": 49,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.6   顺序表和链表的比较",
+              "depth": 2,
+              "page": 49,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.7   本节试题精选",
+              "depth": 2,
+              "page": 50,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.8   答案与解析",
+              "depth": 2,
+              "page": 56,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "归纳总结",
+          "depth": 1,
+          "page": 73,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "思维拓展",
+          "depth": 1,
+          "page": 73,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第3章   栈、队列和数组",
+      "depth": 0,
+      "page": 74,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "3.1   栈",
+          "depth": 1,
+          "page": 74,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.1.1   栈的基本概念",
+              "depth": 2,
+              "page": 74,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.2   栈的顺序存储结构",
+              "depth": 2,
+              "page": 75,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.3   栈的链式存储结构",
+              "depth": 2,
+              "page": 77,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.4   本节试题精选",
+              "depth": 2,
+              "page": 78,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.5   答案与解析",
+              "depth": 2,
+              "page": 81,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.2   队列",
+          "depth": 1,
+          "page": 87,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.2.1   队列的基本概念",
+              "depth": 2,
+              "page": 87,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.2   队列的顺序存储结构",
+              "depth": 2,
+              "page": 88,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.3   队列的链式存储结构",
+              "depth": 2,
+              "page": 90,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.4   双端队列",
+              "depth": 2,
+              "page": 92,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.5   本节试题精选",
+              "depth": 2,
+              "page": 93,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.6   答案与解析",
+              "depth": 2,
+              "page": 96,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.3   栈和队列的应用",
+          "depth": 1,
+          "page": 101,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.3.1   栈在括号匹配中的应用",
+              "depth": 2,
+              "page": 101,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.2   栈在表达式求值中的应用",
+              "depth": 2,
+              "page": 102,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.3   栈在递归中的应用",
+              "depth": 2,
+              "page": 104,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.4   队列在层次遍历中的应用",
+              "depth": 2,
+              "page": 105,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.5   队列在计算机系统中的应用",
+              "depth": 2,
+              "page": 106,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.6   本节试题精选",
+              "depth": 2,
+              "page": 106,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.7   答案与解析",
+              "depth": 2,
+              "page": 108,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.4   数组和特殊矩阵",
+          "depth": 1,
+          "page": 112,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.4.1   数组的定义",
+              "depth": 2,
+              "page": 112,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.4.2   数组的存储结构",
+              "depth": 2,
+              "page": 112,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.4.3   特殊矩阵的压缩存储",
+              "depth": 2,
+              "page": 113,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.4.4   稀疏矩阵",
+              "depth": 2,
+              "page": 116,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.4.5   本节试题精选",
+              "depth": 2,
+              "page": 116,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.4.6   答案与解析",
+              "depth": 2,
+              "page": 118,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "归纳总结",
+          "depth": 1,
+          "page": 120,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "思维拓展",
+          "depth": 1,
+          "page": 120,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第4章   串",
+      "depth": 0,
+      "page": 121,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "*4.1   串的定义和实现",
+          "depth": 1,
+          "page": 121,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "4.1.1   串的定义",
+              "depth": 2,
+              "page": 121,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.2   串的基本操作",
+              "depth": 2,
+              "page": 122,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.3   串的存储结构",
+              "depth": 2,
+              "page": 122,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "4.2   串的模式匹配",
+          "depth": 1,
+          "page": 123,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "4.2.1   简单的模式匹配算法",
+              "depth": 2,
+              "page": 123,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.2   串的模式匹配算法——KMP算法",
+              "depth": 2,
+              "page": 124,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.3   KMP算法的进一步优化",
+              "depth": 2,
+              "page": 129,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.4   本节试题精选",
+              "depth": 2,
+              "page": 130,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.5   答案与解析",
+              "depth": 2,
+              "page": 131,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "归纳总结",
+          "depth": 1,
+          "page": 135,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "思维拓展",
+          "depth": 1,
+          "page": 135,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第5章   树与二叉树",
+      "depth": 0,
+      "page": 136,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "5.1   树的基本概念",
+          "depth": 1,
+          "page": 136,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.1.1   树的定义",
+              "depth": 2,
+              "page": 136,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.2   基本术语",
+              "depth": 2,
+              "page": 137,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.3   树的性质",
+              "depth": 2,
+              "page": 138,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.4   本节试题精选",
+              "depth": 2,
+              "page": 138,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.5   答案与解析",
+              "depth": 2,
+              "page": 139,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.2   二叉树的概念",
+          "depth": 1,
+          "page": 142,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.2.1   二叉树的定义及其主要特性",
+              "depth": 2,
+              "page": 142,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.2   二叉树的存储结构",
+              "depth": 2,
+              "page": 144,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.3   本节试题精选",
+              "depth": 2,
+              "page": 145,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.4   答案与解析",
+              "depth": 2,
+              "page": 148,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.3   二叉树的遍历和线索二叉树",
+          "depth": 1,
+          "page": 152,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.3.1   二叉树的遍历",
+              "depth": 2,
+              "page": 152,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.2   线索二叉树",
+              "depth": 2,
+              "page": 157,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.3   本节试题精选",
+              "depth": 2,
+              "page": 160,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.4   答案与解析",
+              "depth": 2,
+              "page": 166,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.4   树、森林",
+          "depth": 1,
+          "page": 183,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.4.1   树的存储结构",
+              "depth": 2,
+              "page": 183,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.4.2   树、森林与二叉树的转换",
+              "depth": 2,
+              "page": 184,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.4.3   树和森林的遍历",
+              "depth": 2,
+              "page": 186,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.4.4   本节试题精选",
+              "depth": 2,
+              "page": 187,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.4.5   答案与解析",
+              "depth": 2,
+              "page": 189,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.5   树与二叉树的应用",
+          "depth": 1,
+          "page": 195,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.5.1   哈夫曼树和哈夫曼编码",
+              "depth": 2,
+              "page": 195,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.5.2   并查集",
+              "depth": 2,
+              "page": 198,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.5.3   本节试题精选",
+              "depth": 2,
+              "page": 200,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.5.4   答案与解析",
+              "depth": 2,
+              "page": 202,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "归纳总结",
+          "depth": 1,
+          "page": 208,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "思维拓展",
+          "depth": 1,
+          "page": 208,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第6章   图",
+      "depth": 0,
+      "page": 210,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "6.1　图的基本概念",
+          "depth": 1,
+          "page": 210,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "6.1.1　图的定义",
+              "depth": 2,
+              "page": 210,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.1.2　本节试题精选",
+              "depth": 2,
+              "page": 213,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.1.3　答案与解析",
+              "depth": 2,
+              "page": 215,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "6.2　图的存储及基本操作",
+          "depth": 1,
+          "page": 218,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "6.2.1　邻接矩阵法",
+              "depth": 2,
+              "page": 218,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.2.2　邻接表法",
+              "depth": 2,
+              "page": 219,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.2.3　十字链表",
+              "depth": 2,
+              "page": 221,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.2.4　邻接多重表",
+              "depth": 2,
+              "page": 221,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.2.5　图的基本操作",
+              "depth": 2,
+              "page": 222,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.2.6　本节试题精选",
+              "depth": 2,
+              "page": 223,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.2.7　答案与解析",
+              "depth": 2,
+              "page": 226,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "6.3　图的遍历",
+          "depth": 1,
+          "page": 231,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "6.3.1　广度优先搜索",
+              "depth": 2,
+              "page": 231,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.3.2　深度优先搜索",
+              "depth": 2,
+              "page": 234,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.3.3　图的遍历与图的连通性",
+              "depth": 2,
+              "page": 235,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.3.4　本节试题精选",
+              "depth": 2,
+              "page": 235,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.3.5　答案与解析",
+              "depth": 2,
+              "page": 238,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "6.4　图的应用",
+          "depth": 1,
+          "page": 243,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "6.4.1　最小生成树",
+              "depth": 2,
+              "page": 243,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.4.2　最短路径",
+              "depth": 2,
+              "page": 246,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.4.3　有向无环图描述表达式",
+              "depth": 2,
+              "page": 249,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.4.4　拓扑排序",
+              "depth": 2,
+              "page": 250,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.4.5　关键路径",
+              "depth": 2,
+              "page": 252,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.4.6　本节试题精选",
+              "depth": 2,
+              "page": 254,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.4.7　答案与解析",
+              "depth": 2,
+              "page": 264,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "归纳总结",
+          "depth": 1,
+          "page": 279,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "思维拓展",
+          "depth": 1,
+          "page": 280,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第7章   查找",
+      "depth": 0,
+      "page": 281,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "7.1   查找的基本概念",
+          "depth": 1,
+          "page": 281,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "7.2   顺序查找和折半查找",
+          "depth": 1,
+          "page": 282,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "7.2.1   顺序查找",
+              "depth": 2,
+              "page": 282,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.2.2   折半查找",
+              "depth": 2,
+              "page": 284,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.2.3   分块查找",
+              "depth": 2,
+              "page": 285,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.2.4   本节试题精选",
+              "depth": 2,
+              "page": 286,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.2.5   答案与解析",
+              "depth": 2,
+              "page": 289,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "7.3   树形查找",
+          "depth": 1,
+          "page": 295,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "7.3.1   二叉排序树（BST）",
+              "depth": 2,
+              "page": 295,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.3.2   平衡二叉树",
+              "depth": 2,
+              "page": 299,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.3.3   红黑树",
+              "depth": 2,
+              "page": 303,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.3.4   本节试题精选",
+              "depth": 2,
+              "page": 308,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.3.5   答案与解析",
+              "depth": 2,
+              "page": 312,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "7.4   B树和B+树",
+          "depth": 1,
+          "page": 322,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "7.4.1   B树及其基本操作",
+              "depth": 2,
+              "page": 323,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.4.2   B+树的基本概念",
+              "depth": 2,
+              "page": 326,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.4.3   本节试题精选",
+              "depth": 2,
+              "page": 327,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.4.4   答案与解析",
+              "depth": 2,
+              "page": 329,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "7.5   散列（Hash）表",
+          "depth": 1,
+          "page": 335,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "7.5.1   散列表的基本概念",
+              "depth": 2,
+              "page": 335,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.5.2   散列函数的构造方法",
+              "depth": 2,
+              "page": 336,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.5.3   处理冲突的方法",
+              "depth": 2,
+              "page": 336,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.5.4   散列查找及性能分析的应用",
+              "depth": 2,
+              "page": 338,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.5.5   本节试题精选",
+              "depth": 2,
+              "page": 339,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.5.6   答案与解析",
+              "depth": 2,
+              "page": 342,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "归纳总结",
+          "depth": 1,
+          "page": 348,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "思维拓展",
+          "depth": 1,
+          "page": 348,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第8章   排序",
+      "depth": 0,
+      "page": 349,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "8.1   排序的基本概念",
+          "depth": 1,
+          "page": 350,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "8.1.1   排序的定义",
+              "depth": 2,
+              "page": 350,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.1.2   本节试题精选",
+              "depth": 2,
+              "page": 350,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.1.3   答案与解析",
+              "depth": 2,
+              "page": 351,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "8.2   插入排序",
+          "depth": 1,
+          "page": 351,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "8.2.1   直接插入排序",
+              "depth": 2,
+              "page": 351,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.2.2   折半插入排序",
+              "depth": 2,
+              "page": 352,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.2.3   希尔排序",
+              "depth": 2,
+              "page": 353,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.2.4   本节试题精选",
+              "depth": 2,
+              "page": 354,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.2.5   答案与解析",
+              "depth": 2,
+              "page": 356,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "8.3   交换排序",
+          "depth": 1,
+          "page": 358,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "8.3.1   冒泡排序",
+              "depth": 2,
+              "page": 359,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.3.2   快速排序",
+              "depth": 2,
+              "page": 360,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.3.3   本节试题精选",
+              "depth": 2,
+              "page": 362,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.3.4   答案与解析",
+              "depth": 2,
+              "page": 365,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "8.4   选择排序",
+          "depth": 1,
+          "page": 369,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "8.4.1   简单选择排序",
+              "depth": 2,
+              "page": 370,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.4.2   堆排序",
+              "depth": 2,
+              "page": 370,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.4.3   本节试题精选",
+              "depth": 2,
+              "page": 373,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.4.4   答案与解析",
+              "depth": 2,
+              "page": 376,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "8.5   归并排序、基数排序和计数排序",
+          "depth": 1,
+          "page": 382,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "8.5.1   归并排序",
+              "depth": 2,
+              "page": 382,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.5.2   基数排序",
+              "depth": 2,
+              "page": 383,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "*8.5.3   计数排序",
+              "depth": 2,
+              "page": 385,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.5.4   本节试题精选",
+              "depth": 2,
+              "page": 387,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.5.5   答案与解析",
+              "depth": 2,
+              "page": 389,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "8.6   各种内部排序算法的比较及应用",
+          "depth": 1,
+          "page": 392,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "8.6.1   内部排序算法的比较",
+              "depth": 2,
+              "page": 392,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.6.2   内部排序算法的应用",
+              "depth": 2,
+              "page": 393,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.6.3   本节试题精选",
+              "depth": 2,
+              "page": 394,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.6.4   答案与解析",
+              "depth": 2,
+              "page": 396,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "8.7   外部排序",
+          "depth": 1,
+          "page": 399,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "8.7.1   外部排序的基本概念",
+              "depth": 2,
+              "page": 399,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.7.2   外部排序的方法",
+              "depth": 2,
+              "page": 399,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.7.3   多路平衡归并与败者树",
+              "depth": 2,
+              "page": 400,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.7.4   置换-选择排序（生成初始归并段）",
+              "depth": 2,
+              "page": 401,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.7.5   最佳归并树",
+              "depth": 2,
+              "page": 402,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.7.6   本节试题精选",
+              "depth": 2,
+              "page": 404,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "8.7.7   答案与解析",
+              "depth": 2,
+              "page": 406,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "归纳总结",
+          "depth": 1,
+          "page": 410,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "思维拓展",
+          "depth": 1,
+          "page": 411,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "参考文献",
+      "depth": 0,
+      "page": 412,
+      "bold": false,
+      "italic": false,
+      "items": []
+    }
+  ],
+  "outline_flat": [
+    {
+      "title": "扉页",
+      "depth": 0,
+      "page": 1
+    },
+    {
+      "title": "版权页",
+      "depth": 0,
+      "page": 2
+    },
+    {
+      "title": "本书配套资源介绍",
+      "depth": 0,
+      "page": 3
+    },
+    {
+      "title": "前 言",
+      "depth": 0,
+      "page": 4
+    },
+    {
+      "title": "致 读 者",
+      "depth": 0,
+      "page": 5
+    },
+    {
+      "title": "王道训练营",
+      "depth": 0,
+      "page": 6
+    },
+    {
+      "title": "目 录",
+      "depth": 0,
+      "page": 8
+    },
+    {
+      "title": "第1章   绪论",
+      "depth": 0,
+      "page": 13
+    },
+    {
+      "title": "1.1   数据结构的基本概念",
+      "depth": 1,
+      "page": 13
+    },
+    {
+      "title": "1.1.1   基本概念和术语",
+      "depth": 2,
+      "page": 13
+    },
+    {
+      "title": "1.1.2   数据结构三要素",
+      "depth": 2,
+      "page": 14
+    },
+    {
+      "title": "1.1.3   本节试题精选",
+      "depth": 2,
+      "page": 15
+    },
+    {
+      "title": "1.1.4   答案与解析",
+      "depth": 2,
+      "page": 16
+    },
+    {
+      "title": "1.2   算法和算法评价",
+      "depth": 1,
+      "page": 16
+    },
+    {
+      "title": "1.2.1   算法的基本概念",
+      "depth": 2,
+      "page": 16
+    },
+    {
+      "title": "1.2.2   算法效率的度量",
+      "depth": 2,
+      "page": 17
+    },
+    {
+      "title": "1.2.3   本节试题精选",
+      "depth": 2,
+      "page": 18
+    },
+    {
+      "title": "1.2.4   答案与解析",
+      "depth": 2,
+      "page": 20
+    },
+    {
+      "title": "归纳总结",
+      "depth": 1,
+      "page": 23
+    },
+    {
+      "title": "思维拓展",
+      "depth": 1,
+      "page": 23
+    },
+    {
+      "title": "第2章   线性表",
+      "depth": 0,
+      "page": 24
+    },
+    {
+      "title": "2.1   线性表的定义和基本操作",
+      "depth": 1,
+      "page": 24
+    },
+    {
+      "title": "2.1.1   线性表的定义",
+      "depth": 2,
+      "page": 24
+    },
+    {
+      "title": "2.1.2   线性表的基本操作",
+      "depth": 2,
+      "page": 25
+    },
+    {
+      "title": "2.1.3   本节试题精选",
+      "depth": 2,
+      "page": 25
+    },
+    {
+      "title": "2.1.4   答案与解析",
+      "depth": 2,
+      "page": 26
+    },
+    {
+      "title": "2.2   线性表的顺序表示",
+      "depth": 1,
+      "page": 26
+    },
+    {
+      "title": "2.2.1   顺序表的定义",
+      "depth": 2,
+      "page": 26
+    },
+    {
+      "title": "2.2.2   顺序表上基本操作的实现",
+      "depth": 2,
+      "page": 27
+    },
+    {
+      "title": "2.2.3   本节试题精选",
+      "depth": 2,
+      "page": 29
+    },
+    {
+      "title": "2.2.4   答案与解析",
+      "depth": 2,
+      "page": 32
+    },
+    {
+      "title": "2.3   线性表的链式表示",
+      "depth": 1,
+      "page": 41
+    },
+    {
+      "title": "2.3.1   单链表的定义",
+      "depth": 2,
+      "page": 41
+    },
+    {
+      "title": "2.3.2   单链表上基本操作的实现",
+      "depth": 2,
+      "page": 42
+    },
+    {
+      "title": "2.3.3   双链表",
+      "depth": 2,
+      "page": 47
+    },
+    {
+      "title": "2.3.4   循环链表",
+      "depth": 2,
+      "page": 48
+    },
+    {
+      "title": "2.3.5   静态链表",
+      "depth": 2,
+      "page": 49
+    },
+    {
+      "title": "2.3.6   顺序表和链表的比较",
+      "depth": 2,
+      "page": 49
+    },
+    {
+      "title": "2.3.7   本节试题精选",
+      "depth": 2,
+      "page": 50
+    },
+    {
+      "title": "2.3.8   答案与解析",
+      "depth": 2,
+      "page": 56
+    },
+    {
+      "title": "归纳总结",
+      "depth": 1,
+      "page": 73
+    },
+    {
+      "title": "思维拓展",
+      "depth": 1,
+      "page": 73
+    },
+    {
+      "title": "第3章   栈、队列和数组",
+      "depth": 0,
+      "page": 74
+    },
+    {
+      "title": "3.1   栈",
+      "depth": 1,
+      "page": 74
+    },
+    {
+      "title": "3.1.1   栈的基本概念",
+      "depth": 2,
+      "page": 74
+    },
+    {
+      "title": "3.1.2   栈的顺序存储结构",
+      "depth": 2,
+      "page": 75
+    },
+    {
+      "title": "3.1.3   栈的链式存储结构",
+      "depth": 2,
+      "page": 77
+    },
+    {
+      "title": "3.1.4   本节试题精选",
+      "depth": 2,
+      "page": 78
+    },
+    {
+      "title": "3.1.5   答案与解析",
+      "depth": 2,
+      "page": 81
+    },
+    {
+      "title": "3.2   队列",
+      "depth": 1,
+      "page": 87
+    },
+    {
+      "title": "3.2.1   队列的基本概念",
+      "depth": 2,
+      "page": 87
+    },
+    {
+      "title": "3.2.2   队列的顺序存储结构",
+      "depth": 2,
+      "page": 88
+    },
+    {
+      "title": "3.2.3   队列的链式存储结构",
+      "depth": 2,
+      "page": 90
+    },
+    {
+      "title": "3.2.4   双端队列",
+      "depth": 2,
+      "page": 92
+    },
+    {
+      "title": "3.2.5   本节试题精选",
+      "depth": 2,
+      "page": 93
+    },
+    {
+      "title": "3.2.6   答案与解析",
+      "depth": 2,
+      "page": 96
+    },
+    {
+      "title": "3.3   栈和队列的应用",
+      "depth": 1,
+      "page": 101
+    },
+    {
+      "title": "3.3.1   栈在括号匹配中的应用",
+      "depth": 2,
+      "page": 101
+    },
+    {
+      "title": "3.3.2   栈在表达式求值中的应用",
+      "depth": 2,
+      "page": 102
+    },
+    {
+      "title": "3.3.3   栈在递归中的应用",
+      "depth": 2,
+      "page": 104
+    },
+    {
+      "title": "3.3.4   队列在层次遍历中的应用",
+      "depth": 2,
+      "page": 105
+    },
+    {
+      "title": "3.3.5   队列在计算机系统中的应用",
+      "depth": 2,
+      "page": 106
+    },
+    {
+      "title": "3.3.6   本节试题精选",
+      "depth": 2,
+      "page": 106
+    },
+    {
+      "title": "3.3.7   答案与解析",
+      "depth": 2,
+      "page": 108
+    },
+    {
+      "title": "3.4   数组和特殊矩阵",
+      "depth": 1,
+      "page": 112
+    },
+    {
+      "title": "3.4.1   数组的定义",
+      "depth": 2,
+      "page": 112
+    },
+    {
+      "title": "3.4.2   数组的存储结构",
+      "depth": 2,
+      "page": 112
+    },
+    {
+      "title": "3.4.3   特殊矩阵的压缩存储",
+      "depth": 2,
+      "page": 113
+    },
+    {
+      "title": "3.4.4   稀疏矩阵",
+      "depth": 2,
+      "page": 116
+    },
+    {
+      "title": "3.4.5   本节试题精选",
+      "depth": 2,
+      "page": 116
+    },
+    {
+      "title": "3.4.6   答案与解析",
+      "depth": 2,
+      "page": 118
+    },
+    {
+      "title": "归纳总结",
+      "depth": 1,
+      "page": 120
+    },
+    {
+      "title": "思维拓展",
+      "depth": 1,
+      "page": 120
+    },
+    {
+      "title": "第4章   串",
+      "depth": 0,
+      "page": 121
+    },
+    {
+      "title": "*4.1   串的定义和实现",
+      "depth": 1,
+      "page": 121
+    },
+    {
+      "title": "4.1.1   串的定义",
+      "depth": 2,
+      "page": 121
+    },
+    {
+      "title": "4.1.2   串的基本操作",
+      "depth": 2,
+      "page": 122
+    },
+    {
+      "title": "4.1.3   串的存储结构",
+      "depth": 2,
+      "page": 122
+    },
+    {
+      "title": "4.2   串的模式匹配",
+      "depth": 1,
+      "page": 123
+    },
+    {
+      "title": "4.2.1   简单的模式匹配算法",
+      "depth": 2,
+      "page": 123
+    },
+    {
+      "title": "4.2.2   串的模式匹配算法——KMP算法",
+      "depth": 2,
+      "page": 124
+    },
+    {
+      "title": "4.2.3   KMP算法的进一步优化",
+      "depth": 2,
+      "page": 129
+    },
+    {
+      "title": "4.2.4   本节试题精选",
+      "depth": 2,
+      "page": 130
+    },
+    {
+      "title": "4.2.5   答案与解析",
+      "depth": 2,
+      "page": 131
+    },
+    {
+      "title": "归纳总结",
+      "depth": 1,
+      "page": 135
+    },
+    {
+      "title": "思维拓展",
+      "depth": 1,
+      "page": 135
+    },
+    {
+      "title": "第5章   树与二叉树",
+      "depth": 0,
+      "page": 136
+    },
+    {
+      "title": "5.1   树的基本概念",
+      "depth": 1,
+      "page": 136
+    },
+    {
+      "title": "5.1.1   树的定义",
+      "depth": 2,
+      "page": 136
+    },
+    {
+      "title": "5.1.2   基本术语",
+      "depth": 2,
+      "page": 137
+    },
+    {
+      "title": "5.1.3   树的性质",
+      "depth": 2,
+      "page": 138
+    },
+    {
+      "title": "5.1.4   本节试题精选",
+      "depth": 2,
+      "page": 138
+    },
+    {
+      "title": "5.1.5   答案与解析",
+      "depth": 2,
+      "page": 139
+    },
+    {
+      "title": "5.2   二叉树的概念",
+      "depth": 1,
+      "page": 142
+    },
+    {
+      "title": "5.2.1   二叉树的定义及其主要特性",
+      "depth": 2,
+      "page": 142
+    },
+    {
+      "title": "5.2.2   二叉树的存储结构",
+      "depth": 2,
+      "page": 144
+    },
+    {
+      "title": "5.2.3   本节试题精选",
+      "depth": 2,
+      "page": 145
+    },
+    {
+      "title": "5.2.4   答案与解析",
+      "depth": 2,
+      "page": 148
+    },
+    {
+      "title": "5.3   二叉树的遍历和线索二叉树",
+      "depth": 1,
+      "page": 152
+    },
+    {
+      "title": "5.3.1   二叉树的遍历",
+      "depth": 2,
+      "page": 152
+    },
+    {
+      "title": "5.3.2   线索二叉树",
+      "depth": 2,
+      "page": 157
+    },
+    {
+      "title": "5.3.3   本节试题精选",
+      "depth": 2,
+      "page": 160
+    },
+    {
+      "title": "5.3.4   答案与解析",
+      "depth": 2,
+      "page": 166
+    },
+    {
+      "title": "5.4   树、森林",
+      "depth": 1,
+      "page": 183
+    },
+    {
+      "title": "5.4.1   树的存储结构",
+      "depth": 2,
+      "page": 183
+    },
+    {
+      "title": "5.4.2   树、森林与二叉树的转换",
+      "depth": 2,
+      "page": 184
+    },
+    {
+      "title": "5.4.3   树和森林的遍历",
+      "depth": 2,
+      "page": 186
+    },
+    {
+      "title": "5.4.4   本节试题精选",
+      "depth": 2,
+      "page": 187
+    },
+    {
+      "title": "5.4.5   答案与解析",
+      "depth": 2,
+      "page": 189
+    },
+    {
+      "title": "5.5   树与二叉树的应用",
+      "depth": 1,
+      "page": 195
+    },
+    {
+      "title": "5.5.1   哈夫曼树和哈夫曼编码",
+      "depth": 2,
+      "page": 195
+    },
+    {
+      "title": "5.5.2   并查集",
+      "depth": 2,
+      "page": 198
+    },
+    {
+      "title": "5.5.3   本节试题精选",
+      "depth": 2,
+      "page": 200
+    },
+    {
+      "title": "5.5.4   答案与解析",
+      "depth": 2,
+      "page": 202
+    },
+    {
+      "title": "归纳总结",
+      "depth": 1,
+      "page": 208
+    },
+    {
+      "title": "思维拓展",
+      "depth": 1,
+      "page": 208
+    },
+    {
+      "title": "第6章   图",
+      "depth": 0,
+      "page": 210
+    },
+    {
+      "title": "6.1　图的基本概念",
+      "depth": 1,
+      "page": 210
+    },
+    {
+      "title": "6.1.1　图的定义",
+      "depth": 2,
+      "page": 210
+    },
+    {
+      "title": "6.1.2　本节试题精选",
+      "depth": 2,
+      "page": 213
+    },
+    {
+      "title": "6.1.3　答案与解析",
+      "depth": 2,
+      "page": 215
+    },
+    {
+      "title": "6.2　图的存储及基本操作",
+      "depth": 1,
+      "page": 218
+    },
+    {
+      "title": "6.2.1　邻接矩阵法",
+      "depth": 2,
+      "page": 218
+    },
+    {
+      "title": "6.2.2　邻接表法",
+      "depth": 2,
+      "page": 219
+    },
+    {
+      "title": "6.2.3　十字链表",
+      "depth": 2,
+      "page": 221
+    },
+    {
+      "title": "6.2.4　邻接多重表",
+      "depth": 2,
+      "page": 221
+    },
+    {
+      "title": "6.2.5　图的基本操作",
+      "depth": 2,
+      "page": 222
+    },
+    {
+      "title": "6.2.6　本节试题精选",
+      "depth": 2,
+      "page": 223
+    },
+    {
+      "title": "6.2.7　答案与解析",
+      "depth": 2,
+      "page": 226
+    },
+    {
+      "title": "6.3　图的遍历",
+      "depth": 1,
+      "page": 231
+    },
+    {
+      "title": "6.3.1　广度优先搜索",
+      "depth": 2,
+      "page": 231
+    },
+    {
+      "title": "6.3.2　深度优先搜索",
+      "depth": 2,
+      "page": 234
+    },
+    {
+      "title": "6.3.3　图的遍历与图的连通性",
+      "depth": 2,
+      "page": 235
+    },
+    {
+      "title": "6.3.4　本节试题精选",
+      "depth": 2,
+      "page": 235
+    },
+    {
+      "title": "6.3.5　答案与解析",
+      "depth": 2,
+      "page": 238
+    },
+    {
+      "title": "6.4　图的应用",
+      "depth": 1,
+      "page": 243
+    },
+    {
+      "title": "6.4.1　最小生成树",
+      "depth": 2,
+      "page": 243
+    },
+    {
+      "title": "6.4.2　最短路径",
+      "depth": 2,
+      "page": 246
+    },
+    {
+      "title": "6.4.3　有向无环图描述表达式",
+      "depth": 2,
+      "page": 249
+    },
+    {
+      "title": "6.4.4　拓扑排序",
+      "depth": 2,
+      "page": 250
+    },
+    {
+      "title": "6.4.5　关键路径",
+      "depth": 2,
+      "page": 252
+    },
+    {
+      "title": "6.4.6　本节试题精选",
+      "depth": 2,
+      "page": 254
+    },
+    {
+      "title": "6.4.7　答案与解析",
+      "depth": 2,
+      "page": 264
+    },
+    {
+      "title": "归纳总结",
+      "depth": 1,
+      "page": 279
+    },
+    {
+      "title": "思维拓展",
+      "depth": 1,
+      "page": 280
+    },
+    {
+      "title": "第7章   查找",
+      "depth": 0,
+      "page": 281
+    },
+    {
+      "title": "7.1   查找的基本概念",
+      "depth": 1,
+      "page": 281
+    },
+    {
+      "title": "7.2   顺序查找和折半查找",
+      "depth": 1,
+      "page": 282
+    },
+    {
+      "title": "7.2.1   顺序查找",
+      "depth": 2,
+      "page": 282
+    },
+    {
+      "title": "7.2.2   折半查找",
+      "depth": 2,
+      "page": 284
+    },
+    {
+      "title": "7.2.3   分块查找",
+      "depth": 2,
+      "page": 285
+    },
+    {
+      "title": "7.2.4   本节试题精选",
+      "depth": 2,
+      "page": 286
+    },
+    {
+      "title": "7.2.5   答案与解析",
+      "depth": 2,
+      "page": 289
+    },
+    {
+      "title": "7.3   树形查找",
+      "depth": 1,
+      "page": 295
+    },
+    {
+      "title": "7.3.1   二叉排序树（BST）",
+      "depth": 2,
+      "page": 295
+    },
+    {
+      "title": "7.3.2   平衡二叉树",
+      "depth": 2,
+      "page": 299
+    },
+    {
+      "title": "7.3.3   红黑树",
+      "depth": 2,
+      "page": 303
+    },
+    {
+      "title": "7.3.4   本节试题精选",
+      "depth": 2,
+      "page": 308
+    },
+    {
+      "title": "7.3.5   答案与解析",
+      "depth": 2,
+      "page": 312
+    },
+    {
+      "title": "7.4   B树和B+树",
+      "depth": 1,
+      "page": 322
+    },
+    {
+      "title": "7.4.1   B树及其基本操作",
+      "depth": 2,
+      "page": 323
+    },
+    {
+      "title": "7.4.2   B+树的基本概念",
+      "depth": 2,
+      "page": 326
+    },
+    {
+      "title": "7.4.3   本节试题精选",
+      "depth": 2,
+      "page": 327
+    },
+    {
+      "title": "7.4.4   答案与解析",
+      "depth": 2,
+      "page": 329
+    },
+    {
+      "title": "7.5   散列（Hash）表",
+      "depth": 1,
+      "page": 335
+    },
+    {
+      "title": "7.5.1   散列表的基本概念",
+      "depth": 2,
+      "page": 335
+    },
+    {
+      "title": "7.5.2   散列函数的构造方法",
+      "depth": 2,
+      "page": 336
+    },
+    {
+      "title": "7.5.3   处理冲突的方法",
+      "depth": 2,
+      "page": 336
+    },
+    {
+      "title": "7.5.4   散列查找及性能分析的应用",
+      "depth": 2,
+      "page": 338
+    },
+    {
+      "title": "7.5.5   本节试题精选",
+      "depth": 2,
+      "page": 339
+    },
+    {
+      "title": "7.5.6   答案与解析",
+      "depth": 2,
+      "page": 342
+    },
+    {
+      "title": "归纳总结",
+      "depth": 1,
+      "page": 348
+    },
+    {
+      "title": "思维拓展",
+      "depth": 1,
+      "page": 348
+    },
+    {
+      "title": "第8章   排序",
+      "depth": 0,
+      "page": 349
+    },
+    {
+      "title": "8.1   排序的基本概念",
+      "depth": 1,
+      "page": 350
+    },
+    {
+      "title": "8.1.1   排序的定义",
+      "depth": 2,
+      "page": 350
+    },
+    {
+      "title": "8.1.2   本节试题精选",
+      "depth": 2,
+      "page": 350
+    },
+    {
+      "title": "8.1.3   答案与解析",
+      "depth": 2,
+      "page": 351
+    },
+    {
+      "title": "8.2   插入排序",
+      "depth": 1,
+      "page": 351
+    },
+    {
+      "title": "8.2.1   直接插入排序",
+      "depth": 2,
+      "page": 351
+    },
+    {
+      "title": "8.2.2   折半插入排序",
+      "depth": 2,
+      "page": 352
+    },
+    {
+      "title": "8.2.3   希尔排序",
+      "depth": 2,
+      "page": 353
+    },
+    {
+      "title": "8.2.4   本节试题精选",
+      "depth": 2,
+      "page": 354
+    },
+    {
+      "title": "8.2.5   答案与解析",
+      "depth": 2,
+      "page": 356
+    },
+    {
+      "title": "8.3   交换排序",
+      "depth": 1,
+      "page": 358
+    },
+    {
+      "title": "8.3.1   冒泡排序",
+      "depth": 2,
+      "page": 359
+    },
+    {
+      "title": "8.3.2   快速排序",
+      "depth": 2,
+      "page": 360
+    },
+    {
+      "title": "8.3.3   本节试题精选",
+      "depth": 2,
+      "page": 362
+    },
+    {
+      "title": "8.3.4   答案与解析",
+      "depth": 2,
+      "page": 365
+    },
+    {
+      "title": "8.4   选择排序",
+      "depth": 1,
+      "page": 369
+    },
+    {
+      "title": "8.4.1   简单选择排序",
+      "depth": 2,
+      "page": 370
+    },
+    {
+      "title": "8.4.2   堆排序",
+      "depth": 2,
+      "page": 370
+    },
+    {
+      "title": "8.4.3   本节试题精选",
+      "depth": 2,
+      "page": 373
+    },
+    {
+      "title": "8.4.4   答案与解析",
+      "depth": 2,
+      "page": 376
+    },
+    {
+      "title": "8.5   归并排序、基数排序和计数排序",
+      "depth": 1,
+      "page": 382
+    },
+    {
+      "title": "8.5.1   归并排序",
+      "depth": 2,
+      "page": 382
+    },
+    {
+      "title": "8.5.2   基数排序",
+      "depth": 2,
+      "page": 383
+    },
+    {
+      "title": "*8.5.3   计数排序",
+      "depth": 2,
+      "page": 385
+    },
+    {
+      "title": "8.5.4   本节试题精选",
+      "depth": 2,
+      "page": 387
+    },
+    {
+      "title": "8.5.5   答案与解析",
+      "depth": 2,
+      "page": 389
+    },
+    {
+      "title": "8.6   各种内部排序算法的比较及应用",
+      "depth": 1,
+      "page": 392
+    },
+    {
+      "title": "8.6.1   内部排序算法的比较",
+      "depth": 2,
+      "page": 392
+    },
+    {
+      "title": "8.6.2   内部排序算法的应用",
+      "depth": 2,
+      "page": 393
+    },
+    {
+      "title": "8.6.3   本节试题精选",
+      "depth": 2,
+      "page": 394
+    },
+    {
+      "title": "8.6.4   答案与解析",
+      "depth": 2,
+      "page": 396
+    },
+    {
+      "title": "8.7   外部排序",
+      "depth": 1,
+      "page": 399
+    },
+    {
+      "title": "8.7.1   外部排序的基本概念",
+      "depth": 2,
+      "page": 399
+    },
+    {
+      "title": "8.7.2   外部排序的方法",
+      "depth": 2,
+      "page": 399
+    },
+    {
+      "title": "8.7.3   多路平衡归并与败者树",
+      "depth": 2,
+      "page": 400
+    },
+    {
+      "title": "8.7.4   置换-选择排序（生成初始归并段）",
+      "depth": 2,
+      "page": 401
+    },
+    {
+      "title": "8.7.5   最佳归并树",
+      "depth": 2,
+      "page": 402
+    },
+    {
+      "title": "8.7.6   本节试题精选",
+      "depth": 2,
+      "page": 404
+    },
+    {
+      "title": "8.7.7   答案与解析",
+      "depth": 2,
+      "page": 406
+    },
+    {
+      "title": "归纳总结",
+      "depth": 1,
+      "page": 410
+    },
+    {
+      "title": "思维拓展",
+      "depth": 1,
+      "page": 411
+    },
+    {
+      "title": "参考文献",
+      "depth": 0,
+      "page": 412
+    }
+  ],
+  "sample_pages": [
+    {
+      "page": 1,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 2,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 3,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 4,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 5,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 6,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 7,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 8,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 9,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 10,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 11,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 12,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 13,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 14,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 15,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 16,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 17,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 18,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 20,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 23,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 24,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 25,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 26,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 27,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 29,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 32,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 41,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 42,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 47,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 48,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 49,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 50,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 56,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 73,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 74,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 75,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 77,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 78,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 81,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 83,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 87,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 124,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 165,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 206,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 247,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 288,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 329,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 370,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 411,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 412,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    }
+  ],
+  "extraction": {
+    "tool": "pdfjs-dist",
+    "version": "6.1.200",
+    "elapsed_ms": 410
+  }
+}

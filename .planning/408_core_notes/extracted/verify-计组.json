@@ -1,0 +1,3313 @@
+{
+  "source": "D:\\study\\408\\90-复习资料\\01-核心教材\\2026计算机组成原理_带书签.pdf",
+  "file_name": "2026计算机组成原理_带书签.pdf",
+  "num_pages": 348,
+  "fingerprints": [
+    "49338bc5e193146c9a4b5b7d02ae3582",
+    null
+  ],
+  "info": {
+    "PDFFormatVersion": "1.7",
+    "Language": null,
+    "EncryptFilterName": null,
+    "IsLinearized": false,
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "IsCollectionPresent": false,
+    "IsSignaturesPresent": false,
+    "ModDate": "D:20250114213754+08'00'"
+  },
+  "metadata": null,
+  "content_disposition_filename": null,
+  "content_length": null,
+  "page_labels": null,
+  "outline": [
+    {
+      "title": "扉页",
+      "depth": 0,
+      "page": 1,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "版权页",
+      "depth": 0,
+      "page": 2,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "本书配套资源介绍",
+      "depth": 0,
+      "page": 3,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "前 言",
+      "depth": 0,
+      "page": 4,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "致 读 者",
+      "depth": 0,
+      "page": 5,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "王道训练营",
+      "depth": 0,
+      "page": 6,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "目 录",
+      "depth": 0,
+      "page": 8,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "第1章   计算机系统概述",
+      "depth": 0,
+      "page": 13,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "*1.1   计算机发展历程①",
+          "depth": 1,
+          "page": 13,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "*1.1.1   计算机硬件的发展",
+              "depth": 2,
+              "page": 13,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "*1.1.2   计算机软件的发展",
+              "depth": 2,
+              "page": 14,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "1.2   计算机系统层次结构",
+          "depth": 1,
+          "page": 14,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "1.2.1   计算机系统的组成",
+              "depth": 2,
+              "page": 14,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.2   计算机硬件",
+              "depth": 2,
+              "page": 15,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.3   计算机软件",
+              "depth": 2,
+              "page": 17,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.4   计算机系统的层次结构",
+              "depth": 2,
+              "page": 18,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.5   计算机系统的工作原理",
+              "depth": 2,
+              "page": 19,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.6   本节习题精选",
+              "depth": 2,
+              "page": 20,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.7   答案与解析",
+              "depth": 2,
+              "page": 22,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "1.3   计算机的性能指标",
+          "depth": 1,
+          "page": 24,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "1.3.1   计算机的主要性能指标",
+              "depth": 2,
+              "page": 24,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.3.2   几个专业术语",
+              "depth": 2,
+              "page": 27,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.3.3   本节习题精选",
+              "depth": 2,
+              "page": 27,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.3.4   答案与解析",
+              "depth": 2,
+              "page": 31,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "1.4   本章小结",
+          "depth": 1,
+          "page": 35,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "1.5   常见问题和易混淆知识点",
+          "depth": 1,
+          "page": 35,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第2章   数据的表示和运算",
+      "depth": 0,
+      "page": 37,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "2.1   数制与编码",
+          "depth": 1,
+          "page": 37,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "2.1.1   进位计数制及其相互转换",
+              "depth": 2,
+              "page": 37,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.2   定点数的编码表示",
+              "depth": 2,
+              "page": 40,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.3   整数的表示",
+              "depth": 2,
+              "page": 42,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.4   C语言中的整数类型及类型转换",
+              "depth": 2,
+              "page": 42,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.5   本节习题精选",
+              "depth": 2,
+              "page": 45,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.6   答案与解析",
+              "depth": 2,
+              "page": 47,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "2.2   运算方法和运算电路",
+          "depth": 1,
+          "page": 50,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "2.2.1   基本运算部件",
+              "depth": 2,
+              "page": 50,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.2   定点数的移位运算",
+              "depth": 2,
+              "page": 53,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.3   定点数的加减运算",
+              "depth": 2,
+              "page": 53,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.4   定点数的乘除运算",
+              "depth": 2,
+              "page": 56,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.5   本节习题精选",
+              "depth": 2,
+              "page": 59,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.6   答案与解析",
+              "depth": 2,
+              "page": 63,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "2.3   浮点数的表示与运算",
+          "depth": 1,
+          "page": 68,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "2.3.1   浮点数的表示",
+              "depth": 2,
+              "page": 68,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.2   浮点数的加减运算",
+              "depth": 2,
+              "page": 72,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.3   C语言中的浮点数类型",
+              "depth": 2,
+              "page": 73,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.4   数据的大小端和对齐存储",
+              "depth": 2,
+              "page": 74,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.5   本节习题精选",
+              "depth": 2,
+              "page": 75,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.6   答案与解析",
+              "depth": 2,
+              "page": 81,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "2.4   本章小结",
+          "depth": 1,
+          "page": 90,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "2.5   常见问题和易混淆知识点",
+          "depth": 1,
+          "page": 91,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第3章   存储系统",
+      "depth": 0,
+      "page": 92,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "3.1   存储器概述",
+          "depth": 1,
+          "page": 92,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.1.1   存储器的分类",
+              "depth": 2,
+              "page": 92,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.2   存储器的性能指标",
+              "depth": 2,
+              "page": 93,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.3   多级层次的存储系统",
+              "depth": 2,
+              "page": 94,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.4   本节习题精选",
+              "depth": 2,
+              "page": 95,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.5   答案与解析",
+              "depth": 2,
+              "page": 96,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.2   主存储器",
+          "depth": 1,
+          "page": 97,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.2.1   SRAM芯片和DRAM芯片",
+              "depth": 2,
+              "page": 97,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.2   只读存储器",
+              "depth": 2,
+              "page": 100,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.3   主存储器的基本组成",
+              "depth": 2,
+              "page": 101,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.4   多模块存储器",
+              "depth": 2,
+              "page": 101,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.5   本节习题精选",
+              "depth": 2,
+              "page": 103,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.6   答案与解析",
+              "depth": 2,
+              "page": 107,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.3   主存储器与CPU的连接",
+          "depth": 1,
+          "page": 113,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.3.1   连接原理",
+              "depth": 2,
+              "page": 113,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.2   主存容量的扩展",
+              "depth": 2,
+              "page": 113,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.3   存储芯片的地址分配和片选",
+              "depth": 2,
+              "page": 115,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.4   存储器与CPU的连接",
+              "depth": 2,
+              "page": 116,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.5   本节习题精选",
+              "depth": 2,
+              "page": 116,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.3.6   答案与解析",
+              "depth": 2,
+              "page": 118,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.4   外部存储器",
+          "depth": 1,
+          "page": 121,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.4.1   磁盘存储器",
+              "depth": 2,
+              "page": 121,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.4.2   固态硬盘",
+              "depth": 2,
+              "page": 123,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.4.3   本节习题精选",
+              "depth": 2,
+              "page": 124,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.4.4   答案与解析",
+              "depth": 2,
+              "page": 125,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.5   高速缓冲存储器",
+          "depth": 1,
+          "page": 127,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.5.1   程序访问的局部性原理",
+              "depth": 2,
+              "page": 127,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.5.2   Cache的基本工作原理",
+              "depth": 2,
+              "page": 129,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.5.3   Cache和主存的映射方式",
+              "depth": 2,
+              "page": 130,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.5.4   Cache中主存块的替换算法",
+              "depth": 2,
+              "page": 134,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.5.5   Cache的一致性问题",
+              "depth": 2,
+              "page": 135,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.5.6   本节习题精选",
+              "depth": 2,
+              "page": 136,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.5.7   答案与解析",
+              "depth": 2,
+              "page": 142,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.6   虚拟存储器",
+          "depth": 1,
+          "page": 149,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.6.1   虚拟存储器的基本概念",
+              "depth": 2,
+              "page": 149,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.6.2   页式虚拟存储器",
+              "depth": 2,
+              "page": 150,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.6.3   段式虚拟存储器",
+              "depth": 2,
+              "page": 153,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.6.4   段页式虚拟存储器",
+              "depth": 2,
+              "page": 154,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.6.5   虚拟存储器与Cache的比较",
+              "depth": 2,
+              "page": 154,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.6.6   本节习题精选",
+              "depth": 2,
+              "page": 154,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.6.7   答案与解析",
+              "depth": 2,
+              "page": 160,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.7   本章小结",
+          "depth": 1,
+          "page": 166,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "3.8   常见问题和易混淆知识点",
+          "depth": 1,
+          "page": 167,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第4章   指令系统",
+      "depth": 0,
+      "page": 168,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "4.1   指令系统",
+          "depth": 1,
+          "page": 168,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "4.1.1   指令集体系结构",
+              "depth": 2,
+              "page": 168,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.2   指令的基本格式",
+              "depth": 2,
+              "page": 169,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.3   定长操作码指令格式",
+              "depth": 2,
+              "page": 170,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.4   扩展操作码指令格式",
+              "depth": 2,
+              "page": 171,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.5   指令的操作类型",
+              "depth": 2,
+              "page": 171,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.6   本节习题精选",
+              "depth": 2,
+              "page": 172,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.7   答案与解析",
+              "depth": 2,
+              "page": 174,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "4.2   指令的寻址方式",
+          "depth": 1,
+          "page": 177,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "4.2.1   指令寻址和数据寻址",
+              "depth": 2,
+              "page": 177,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.2   常见的数据寻址方式",
+              "depth": 2,
+              "page": 178,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.3   本节习题精选",
+              "depth": 2,
+              "page": 181,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.4   答案与解析",
+              "depth": 2,
+              "page": 189,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "4.3   程序的机器级代码表示",
+          "depth": 1,
+          "page": 195,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "4.3.1   常用汇编指令介绍",
+              "depth": 2,
+              "page": 195,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.2   选择语句的机器级表示",
+              "depth": 2,
+              "page": 200,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.3   循环语句的机器级表示",
+              "depth": 2,
+              "page": 201,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.4   过程调用的机器级表示",
+              "depth": 2,
+              "page": 203,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.5   本节习题精选",
+              "depth": 2,
+              "page": 205,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.6   答案与解析",
+              "depth": 2,
+              "page": 210,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "4.4   CISC和RISC的基本概念",
+          "depth": 1,
+          "page": 213,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "4.4.1   复杂指令系统计算机（CISC）",
+              "depth": 2,
+              "page": 214,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.4.2   精简指令系统计算机（RISC）",
+              "depth": 2,
+              "page": 214,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.4.3   CISC和RISC的比较",
+              "depth": 2,
+              "page": 214,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.4.4   本节习题精选",
+              "depth": 2,
+              "page": 215,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.4.5   答案与解析",
+              "depth": 2,
+              "page": 216,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "4.5   本章小结",
+          "depth": 1,
+          "page": 216,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "4.6   常见问题和易混淆知识点",
+          "depth": 1,
+          "page": 217,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第5章   中央处理器",
+      "depth": 0,
+      "page": 218,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "5.1   CPU的功能和基本结构",
+          "depth": 1,
+          "page": 218,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.1.1   CPU的功能",
+              "depth": 2,
+              "page": 218,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.2   CPU的基本结构",
+              "depth": 2,
+              "page": 219,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.3   CPU的寄存器",
+              "depth": 2,
+              "page": 219,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.4   本节习题精选",
+              "depth": 2,
+              "page": 220,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.5   答案与解析",
+              "depth": 2,
+              "page": 222,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.2   指令执行过程",
+          "depth": 1,
+          "page": 225,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.2.1   指令周期",
+              "depth": 2,
+              "page": 225,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.2   指令周期的数据流",
+              "depth": 2,
+              "page": 226,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.3   指令执行方案",
+              "depth": 2,
+              "page": 227,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.4   本节习题精选",
+              "depth": 2,
+              "page": 228,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.5   答案与解析",
+              "depth": 2,
+              "page": 229,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.3   数据通路的功能和基本结构",
+          "depth": 1,
+          "page": 231,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.3.1   数据通路的功能",
+              "depth": 2,
+              "page": 231,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.2   数据通路的组成",
+              "depth": 2,
+              "page": 231,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.3   数据通路的基本结构",
+              "depth": 2,
+              "page": 232,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.4   数据通路的操作举例",
+              "depth": 2,
+              "page": 233,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.5   本节习题精选",
+              "depth": 2,
+              "page": 234,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.6   答案与解析",
+              "depth": 2,
+              "page": 241,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.4   控制器的功能和工作原理",
+          "depth": 1,
+          "page": 247,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.4.1   控制器的结构和功能",
+              "depth": 2,
+              "page": 247,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.4.2   硬布线控制器",
+              "depth": 2,
+              "page": 248,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.4.3   微程序控制器",
+              "depth": 2,
+              "page": 248,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.4.4   本节习题精选",
+              "depth": 2,
+              "page": 253,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.4.5   答案与解析",
+              "depth": 2,
+              "page": 257,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.5   异常和中断机制",
+          "depth": 1,
+          "page": 261,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.5.1   异常和中断的基本概念",
+              "depth": 2,
+              "page": 261,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.5.2   异常和中断的分类",
+              "depth": 2,
+              "page": 261,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.5.3   异常和中断响应过程",
+              "depth": 2,
+              "page": 262,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.5.4   本节习题精选",
+              "depth": 2,
+              "page": 263,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.5.5   答案与解析",
+              "depth": 2,
+              "page": 264,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.6   指令流水线",
+          "depth": 1,
+          "page": 266,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.6.1   指令流水线的基本概念",
+              "depth": 2,
+              "page": 266,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.6.2   流水线的基本实现",
+              "depth": 2,
+              "page": 267,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.6.3   流水线的冒险与处理",
+              "depth": 2,
+              "page": 268,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.6.4   流水线的性能指标",
+              "depth": 2,
+              "page": 271,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.6.5   高级流水线技术",
+              "depth": 2,
+              "page": 272,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.6.6   本节习题精选",
+              "depth": 2,
+              "page": 273,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.6.7   答案与解析",
+              "depth": 2,
+              "page": 279,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.7   多处理器的基本概念",
+          "depth": 1,
+          "page": 286,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.7.1   SISD、SIMD、MIMD的基本概念",
+              "depth": 2,
+              "page": 286,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.7.2   硬件多线程的基本概念",
+              "depth": 2,
+              "page": 287,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.7.3   多核处理器的基本概念",
+              "depth": 2,
+              "page": 288,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.7.4   共享内存多处理器的基本概念",
+              "depth": 2,
+              "page": 288,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.7.5   本节习题精选",
+              "depth": 2,
+              "page": 289,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.7.6   答案与解析",
+              "depth": 2,
+              "page": 290,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.8   本章小结",
+          "depth": 1,
+          "page": 291,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "5.9   常见问题和易混淆知识点",
+          "depth": 1,
+          "page": 292,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第6章   总线",
+      "depth": 0,
+      "page": 293,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "6.1   总线概述",
+          "depth": 1,
+          "page": 293,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "6.1.1   总线基本概念",
+              "depth": 2,
+              "page": 293,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.1.2   总线的分类",
+              "depth": 2,
+              "page": 294,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.1.3   系统总线的结构",
+              "depth": 2,
+              "page": 294,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "*6.1.4   常见的总线标准",
+              "depth": 2,
+              "page": 295,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.1.5   总线的性能指标",
+              "depth": 2,
+              "page": 296,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.1.6   本节习题精选",
+              "depth": 2,
+              "page": 297,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.1.7   答案与解析",
+              "depth": 2,
+              "page": 300,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "6.2   总线事务和定时",
+          "depth": 1,
+          "page": 303,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "6.2.1   总线事务",
+              "depth": 2,
+              "page": 303,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.2.2   总线定时",
+              "depth": 2,
+              "page": 303,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.2.3   本节习题精选",
+              "depth": 2,
+              "page": 305,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "6.2.4   答案与解析",
+              "depth": 2,
+              "page": 307,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "6.3   本章小结",
+          "depth": 1,
+          "page": 309,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "6.4   常见问题和易混淆知识点",
+          "depth": 1,
+          "page": 309,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第7章   输入/输出系统",
+      "depth": 0,
+      "page": 310,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "*7.1   I/O系统基本概念",
+          "depth": 1,
+          "page": 310,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "*7.1.1   输入/输出系统",
+              "depth": 2,
+              "page": 310,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "*7.1.2   外部设备",
+              "depth": 2,
+              "page": 311,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "*7.1.3   I/O控制方式",
+              "depth": 2,
+              "page": 312,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "*7.1.4   本节习题精选",
+              "depth": 2,
+              "page": 312,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "*7.1.5   答案与解析",
+              "depth": 2,
+              "page": 313,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "7.2   I/O接口",
+          "depth": 1,
+          "page": 313,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "7.2.1   I/O接口的功能",
+              "depth": 2,
+              "page": 313,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.2.2   I/O接口的基本结构",
+              "depth": 2,
+              "page": 313,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.2.3   I/O接口的类型",
+              "depth": 2,
+              "page": 314,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.2.4   I/O端口及其编址",
+              "depth": 2,
+              "page": 314,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.2.5   本节习题精选",
+              "depth": 2,
+              "page": 315,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.2.6   答案与解析",
+              "depth": 2,
+              "page": 317,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "7.3   I/O方式",
+          "depth": 1,
+          "page": 318,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "7.3.1   程序查询方式",
+              "depth": 2,
+              "page": 319,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.3.2   程序中断方式",
+              "depth": 2,
+              "page": 320,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.3.3   DMA方式",
+              "depth": 2,
+              "page": 325,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.3.4   本节习题精选",
+              "depth": 2,
+              "page": 329,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "7.3.5   答案与解析",
+              "depth": 2,
+              "page": 337,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "7.4   本章小结",
+          "depth": 1,
+          "page": 346,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "7.5   常见问题和易混淆知识点",
+          "depth": 1,
+          "page": 347,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "参考文献",
+      "depth": 0,
+      "page": 348,
+      "bold": false,
+      "italic": false,
+      "items": []
+    }
+  ],
+  "outline_flat": [
+    {
+      "title": "扉页",
+      "depth": 0,
+      "page": 1
+    },
+    {
+      "title": "版权页",
+      "depth": 0,
+      "page": 2
+    },
+    {
+      "title": "本书配套资源介绍",
+      "depth": 0,
+      "page": 3
+    },
+    {
+      "title": "前 言",
+      "depth": 0,
+      "page": 4
+    },
+    {
+      "title": "致 读 者",
+      "depth": 0,
+      "page": 5
+    },
+    {
+      "title": "王道训练营",
+      "depth": 0,
+      "page": 6
+    },
+    {
+      "title": "目 录",
+      "depth": 0,
+      "page": 8
+    },
+    {
+      "title": "第1章   计算机系统概述",
+      "depth": 0,
+      "page": 13
+    },
+    {
+      "title": "*1.1   计算机发展历程①",
+      "depth": 1,
+      "page": 13
+    },
+    {
+      "title": "*1.1.1   计算机硬件的发展",
+      "depth": 2,
+      "page": 13
+    },
+    {
+      "title": "*1.1.2   计算机软件的发展",
+      "depth": 2,
+      "page": 14
+    },
+    {
+      "title": "1.2   计算机系统层次结构",
+      "depth": 1,
+      "page": 14
+    },
+    {
+      "title": "1.2.1   计算机系统的组成",
+      "depth": 2,
+      "page": 14
+    },
+    {
+      "title": "1.2.2   计算机硬件",
+      "depth": 2,
+      "page": 15
+    },
+    {
+      "title": "1.2.3   计算机软件",
+      "depth": 2,
+      "page": 17
+    },
+    {
+      "title": "1.2.4   计算机系统的层次结构",
+      "depth": 2,
+      "page": 18
+    },
+    {
+      "title": "1.2.5   计算机系统的工作原理",
+      "depth": 2,
+      "page": 19
+    },
+    {
+      "title": "1.2.6   本节习题精选",
+      "depth": 2,
+      "page": 20
+    },
+    {
+      "title": "1.2.7   答案与解析",
+      "depth": 2,
+      "page": 22
+    },
+    {
+      "title": "1.3   计算机的性能指标",
+      "depth": 1,
+      "page": 24
+    },
+    {
+      "title": "1.3.1   计算机的主要性能指标",
+      "depth": 2,
+      "page": 24
+    },
+    {
+      "title": "1.3.2   几个专业术语",
+      "depth": 2,
+      "page": 27
+    },
+    {
+      "title": "1.3.3   本节习题精选",
+      "depth": 2,
+      "page": 27
+    },
+    {
+      "title": "1.3.4   答案与解析",
+      "depth": 2,
+      "page": 31
+    },
+    {
+      "title": "1.4   本章小结",
+      "depth": 1,
+      "page": 35
+    },
+    {
+      "title": "1.5   常见问题和易混淆知识点",
+      "depth": 1,
+      "page": 35
+    },
+    {
+      "title": "第2章   数据的表示和运算",
+      "depth": 0,
+      "page": 37
+    },
+    {
+      "title": "2.1   数制与编码",
+      "depth": 1,
+      "page": 37
+    },
+    {
+      "title": "2.1.1   进位计数制及其相互转换",
+      "depth": 2,
+      "page": 37
+    },
+    {
+      "title": "2.1.2   定点数的编码表示",
+      "depth": 2,
+      "page": 40
+    },
+    {
+      "title": "2.1.3   整数的表示",
+      "depth": 2,
+      "page": 42
+    },
+    {
+      "title": "2.1.4   C语言中的整数类型及类型转换",
+      "depth": 2,
+      "page": 42
+    },
+    {
+      "title": "2.1.5   本节习题精选",
+      "depth": 2,
+      "page": 45
+    },
+    {
+      "title": "2.1.6   答案与解析",
+      "depth": 2,
+      "page": 47
+    },
+    {
+      "title": "2.2   运算方法和运算电路",
+      "depth": 1,
+      "page": 50
+    },
+    {
+      "title": "2.2.1   基本运算部件",
+      "depth": 2,
+      "page": 50
+    },
+    {
+      "title": "2.2.2   定点数的移位运算",
+      "depth": 2,
+      "page": 53
+    },
+    {
+      "title": "2.2.3   定点数的加减运算",
+      "depth": 2,
+      "page": 53
+    },
+    {
+      "title": "2.2.4   定点数的乘除运算",
+      "depth": 2,
+      "page": 56
+    },
+    {
+      "title": "2.2.5   本节习题精选",
+      "depth": 2,
+      "page": 59
+    },
+    {
+      "title": "2.2.6   答案与解析",
+      "depth": 2,
+      "page": 63
+    },
+    {
+      "title": "2.3   浮点数的表示与运算",
+      "depth": 1,
+      "page": 68
+    },
+    {
+      "title": "2.3.1   浮点数的表示",
+      "depth": 2,
+      "page": 68
+    },
+    {
+      "title": "2.3.2   浮点数的加减运算",
+      "depth": 2,
+      "page": 72
+    },
+    {
+      "title": "2.3.3   C语言中的浮点数类型",
+      "depth": 2,
+      "page": 73
+    },
+    {
+      "title": "2.3.4   数据的大小端和对齐存储",
+      "depth": 2,
+      "page": 74
+    },
+    {
+      "title": "2.3.5   本节习题精选",
+      "depth": 2,
+      "page": 75
+    },
+    {
+      "title": "2.3.6   答案与解析",
+      "depth": 2,
+      "page": 81
+    },
+    {
+      "title": "2.4   本章小结",
+      "depth": 1,
+      "page": 90
+    },
+    {
+      "title": "2.5   常见问题和易混淆知识点",
+      "depth": 1,
+      "page": 91
+    },
+    {
+      "title": "第3章   存储系统",
+      "depth": 0,
+      "page": 92
+    },
+    {
+      "title": "3.1   存储器概述",
+      "depth": 1,
+      "page": 92
+    },
+    {
+      "title": "3.1.1   存储器的分类",
+      "depth": 2,
+      "page": 92
+    },
+    {
+      "title": "3.1.2   存储器的性能指标",
+      "depth": 2,
+      "page": 93
+    },
+    {
+      "title": "3.1.3   多级层次的存储系统",
+      "depth": 2,
+      "page": 94
+    },
+    {
+      "title": "3.1.4   本节习题精选",
+      "depth": 2,
+      "page": 95
+    },
+    {
+      "title": "3.1.5   答案与解析",
+      "depth": 2,
+      "page": 96
+    },
+    {
+      "title": "3.2   主存储器",
+      "depth": 1,
+      "page": 97
+    },
+    {
+      "title": "3.2.1   SRAM芯片和DRAM芯片",
+      "depth": 2,
+      "page": 97
+    },
+    {
+      "title": "3.2.2   只读存储器",
+      "depth": 2,
+      "page": 100
+    },
+    {
+      "title": "3.2.3   主存储器的基本组成",
+      "depth": 2,
+      "page": 101
+    },
+    {
+      "title": "3.2.4   多模块存储器",
+      "depth": 2,
+      "page": 101
+    },
+    {
+      "title": "3.2.5   本节习题精选",
+      "depth": 2,
+      "page": 103
+    },
+    {
+      "title": "3.2.6   答案与解析",
+      "depth": 2,
+      "page": 107
+    },
+    {
+      "title": "3.3   主存储器与CPU的连接",
+      "depth": 1,
+      "page": 113
+    },
+    {
+      "title": "3.3.1   连接原理",
+      "depth": 2,
+      "page": 113
+    },
+    {
+      "title": "3.3.2   主存容量的扩展",
+      "depth": 2,
+      "page": 113
+    },
+    {
+      "title": "3.3.3   存储芯片的地址分配和片选",
+      "depth": 2,
+      "page": 115
+    },
+    {
+      "title": "3.3.4   存储器与CPU的连接",
+      "depth": 2,
+      "page": 116
+    },
+    {
+      "title": "3.3.5   本节习题精选",
+      "depth": 2,
+      "page": 116
+    },
+    {
+      "title": "3.3.6   答案与解析",
+      "depth": 2,
+      "page": 118
+    },
+    {
+      "title": "3.4   外部存储器",
+      "depth": 1,
+      "page": 121
+    },
+    {
+      "title": "3.4.1   磁盘存储器",
+      "depth": 2,
+      "page": 121
+    },
+    {
+      "title": "3.4.2   固态硬盘",
+      "depth": 2,
+      "page": 123
+    },
+    {
+      "title": "3.4.3   本节习题精选",
+      "depth": 2,
+      "page": 124
+    },
+    {
+      "title": "3.4.4   答案与解析",
+      "depth": 2,
+      "page": 125
+    },
+    {
+      "title": "3.5   高速缓冲存储器",
+      "depth": 1,
+      "page": 127
+    },
+    {
+      "title": "3.5.1   程序访问的局部性原理",
+      "depth": 2,
+      "page": 127
+    },
+    {
+      "title": "3.5.2   Cache的基本工作原理",
+      "depth": 2,
+      "page": 129
+    },
+    {
+      "title": "3.5.3   Cache和主存的映射方式",
+      "depth": 2,
+      "page": 130
+    },
+    {
+      "title": "3.5.4   Cache中主存块的替换算法",
+      "depth": 2,
+      "page": 134
+    },
+    {
+      "title": "3.5.5   Cache的一致性问题",
+      "depth": 2,
+      "page": 135
+    },
+    {
+      "title": "3.5.6   本节习题精选",
+      "depth": 2,
+      "page": 136
+    },
+    {
+      "title": "3.5.7   答案与解析",
+      "depth": 2,
+      "page": 142
+    },
+    {
+      "title": "3.6   虚拟存储器",
+      "depth": 1,
+      "page": 149
+    },
+    {
+      "title": "3.6.1   虚拟存储器的基本概念",
+      "depth": 2,
+      "page": 149
+    },
+    {
+      "title": "3.6.2   页式虚拟存储器",
+      "depth": 2,
+      "page": 150
+    },
+    {
+      "title": "3.6.3   段式虚拟存储器",
+      "depth": 2,
+      "page": 153
+    },
+    {
+      "title": "3.6.4   段页式虚拟存储器",
+      "depth": 2,
+      "page": 154
+    },
+    {
+      "title": "3.6.5   虚拟存储器与Cache的比较",
+      "depth": 2,
+      "page": 154
+    },
+    {
+      "title": "3.6.6   本节习题精选",
+      "depth": 2,
+      "page": 154
+    },
+    {
+      "title": "3.6.7   答案与解析",
+      "depth": 2,
+      "page": 160
+    },
+    {
+      "title": "3.7   本章小结",
+      "depth": 1,
+      "page": 166
+    },
+    {
+      "title": "3.8   常见问题和易混淆知识点",
+      "depth": 1,
+      "page": 167
+    },
+    {
+      "title": "第4章   指令系统",
+      "depth": 0,
+      "page": 168
+    },
+    {
+      "title": "4.1   指令系统",
+      "depth": 1,
+      "page": 168
+    },
+    {
+      "title": "4.1.1   指令集体系结构",
+      "depth": 2,
+      "page": 168
+    },
+    {
+      "title": "4.1.2   指令的基本格式",
+      "depth": 2,
+      "page": 169
+    },
+    {
+      "title": "4.1.3   定长操作码指令格式",
+      "depth": 2,
+      "page": 170
+    },
+    {
+      "title": "4.1.4   扩展操作码指令格式",
+      "depth": 2,
+      "page": 171
+    },
+    {
+      "title": "4.1.5   指令的操作类型",
+      "depth": 2,
+      "page": 171
+    },
+    {
+      "title": "4.1.6   本节习题精选",
+      "depth": 2,
+      "page": 172
+    },
+    {
+      "title": "4.1.7   答案与解析",
+      "depth": 2,
+      "page": 174
+    },
+    {
+      "title": "4.2   指令的寻址方式",
+      "depth": 1,
+      "page": 177
+    },
+    {
+      "title": "4.2.1   指令寻址和数据寻址",
+      "depth": 2,
+      "page": 177
+    },
+    {
+      "title": "4.2.2   常见的数据寻址方式",
+      "depth": 2,
+      "page": 178
+    },
+    {
+      "title": "4.2.3   本节习题精选",
+      "depth": 2,
+      "page": 181
+    },
+    {
+      "title": "4.2.4   答案与解析",
+      "depth": 2,
+      "page": 189
+    },
+    {
+      "title": "4.3   程序的机器级代码表示",
+      "depth": 1,
+      "page": 195
+    },
+    {
+      "title": "4.3.1   常用汇编指令介绍",
+      "depth": 2,
+      "page": 195
+    },
+    {
+      "title": "4.3.2   选择语句的机器级表示",
+      "depth": 2,
+      "page": 200
+    },
+    {
+      "title": "4.3.3   循环语句的机器级表示",
+      "depth": 2,
+      "page": 201
+    },
+    {
+      "title": "4.3.4   过程调用的机器级表示",
+      "depth": 2,
+      "page": 203
+    },
+    {
+      "title": "4.3.5   本节习题精选",
+      "depth": 2,
+      "page": 205
+    },
+    {
+      "title": "4.3.6   答案与解析",
+      "depth": 2,
+      "page": 210
+    },
+    {
+      "title": "4.4   CISC和RISC的基本概念",
+      "depth": 1,
+      "page": 213
+    },
+    {
+      "title": "4.4.1   复杂指令系统计算机（CISC）",
+      "depth": 2,
+      "page": 214
+    },
+    {
+      "title": "4.4.2   精简指令系统计算机（RISC）",
+      "depth": 2,
+      "page": 214
+    },
+    {
+      "title": "4.4.3   CISC和RISC的比较",
+      "depth": 2,
+      "page": 214
+    },
+    {
+      "title": "4.4.4   本节习题精选",
+      "depth": 2,
+      "page": 215
+    },
+    {
+      "title": "4.4.5   答案与解析",
+      "depth": 2,
+      "page": 216
+    },
+    {
+      "title": "4.5   本章小结",
+      "depth": 1,
+      "page": 216
+    },
+    {
+      "title": "4.6   常见问题和易混淆知识点",
+      "depth": 1,
+      "page": 217
+    },
+    {
+      "title": "第5章   中央处理器",
+      "depth": 0,
+      "page": 218
+    },
+    {
+      "title": "5.1   CPU的功能和基本结构",
+      "depth": 1,
+      "page": 218
+    },
+    {
+      "title": "5.1.1   CPU的功能",
+      "depth": 2,
+      "page": 218
+    },
+    {
+      "title": "5.1.2   CPU的基本结构",
+      "depth": 2,
+      "page": 219
+    },
+    {
+      "title": "5.1.3   CPU的寄存器",
+      "depth": 2,
+      "page": 219
+    },
+    {
+      "title": "5.1.4   本节习题精选",
+      "depth": 2,
+      "page": 220
+    },
+    {
+      "title": "5.1.5   答案与解析",
+      "depth": 2,
+      "page": 222
+    },
+    {
+      "title": "5.2   指令执行过程",
+      "depth": 1,
+      "page": 225
+    },
+    {
+      "title": "5.2.1   指令周期",
+      "depth": 2,
+      "page": 225
+    },
+    {
+      "title": "5.2.2   指令周期的数据流",
+      "depth": 2,
+      "page": 226
+    },
+    {
+      "title": "5.2.3   指令执行方案",
+      "depth": 2,
+      "page": 227
+    },
+    {
+      "title": "5.2.4   本节习题精选",
+      "depth": 2,
+      "page": 228
+    },
+    {
+      "title": "5.2.5   答案与解析",
+      "depth": 2,
+      "page": 229
+    },
+    {
+      "title": "5.3   数据通路的功能和基本结构",
+      "depth": 1,
+      "page": 231
+    },
+    {
+      "title": "5.3.1   数据通路的功能",
+      "depth": 2,
+      "page": 231
+    },
+    {
+      "title": "5.3.2   数据通路的组成",
+      "depth": 2,
+      "page": 231
+    },
+    {
+      "title": "5.3.3   数据通路的基本结构",
+      "depth": 2,
+      "page": 232
+    },
+    {
+      "title": "5.3.4   数据通路的操作举例",
+      "depth": 2,
+      "page": 233
+    },
+    {
+      "title": "5.3.5   本节习题精选",
+      "depth": 2,
+      "page": 234
+    },
+    {
+      "title": "5.3.6   答案与解析",
+      "depth": 2,
+      "page": 241
+    },
+    {
+      "title": "5.4   控制器的功能和工作原理",
+      "depth": 1,
+      "page": 247
+    },
+    {
+      "title": "5.4.1   控制器的结构和功能",
+      "depth": 2,
+      "page": 247
+    },
+    {
+      "title": "5.4.2   硬布线控制器",
+      "depth": 2,
+      "page": 248
+    },
+    {
+      "title": "5.4.3   微程序控制器",
+      "depth": 2,
+      "page": 248
+    },
+    {
+      "title": "5.4.4   本节习题精选",
+      "depth": 2,
+      "page": 253
+    },
+    {
+      "title": "5.4.5   答案与解析",
+      "depth": 2,
+      "page": 257
+    },
+    {
+      "title": "5.5   异常和中断机制",
+      "depth": 1,
+      "page": 261
+    },
+    {
+      "title": "5.5.1   异常和中断的基本概念",
+      "depth": 2,
+      "page": 261
+    },
+    {
+      "title": "5.5.2   异常和中断的分类",
+      "depth": 2,
+      "page": 261
+    },
+    {
+      "title": "5.5.3   异常和中断响应过程",
+      "depth": 2,
+      "page": 262
+    },
+    {
+      "title": "5.5.4   本节习题精选",
+      "depth": 2,
+      "page": 263
+    },
+    {
+      "title": "5.5.5   答案与解析",
+      "depth": 2,
+      "page": 264
+    },
+    {
+      "title": "5.6   指令流水线",
+      "depth": 1,
+      "page": 266
+    },
+    {
+      "title": "5.6.1   指令流水线的基本概念",
+      "depth": 2,
+      "page": 266
+    },
+    {
+      "title": "5.6.2   流水线的基本实现",
+      "depth": 2,
+      "page": 267
+    },
+    {
+      "title": "5.6.3   流水线的冒险与处理",
+      "depth": 2,
+      "page": 268
+    },
+    {
+      "title": "5.6.4   流水线的性能指标",
+      "depth": 2,
+      "page": 271
+    },
+    {
+      "title": "5.6.5   高级流水线技术",
+      "depth": 2,
+      "page": 272
+    },
+    {
+      "title": "5.6.6   本节习题精选",
+      "depth": 2,
+      "page": 273
+    },
+    {
+      "title": "5.6.7   答案与解析",
+      "depth": 2,
+      "page": 279
+    },
+    {
+      "title": "5.7   多处理器的基本概念",
+      "depth": 1,
+      "page": 286
+    },
+    {
+      "title": "5.7.1   SISD、SIMD、MIMD的基本概念",
+      "depth": 2,
+      "page": 286
+    },
+    {
+      "title": "5.7.2   硬件多线程的基本概念",
+      "depth": 2,
+      "page": 287
+    },
+    {
+      "title": "5.7.3   多核处理器的基本概念",
+      "depth": 2,
+      "page": 288
+    },
+    {
+      "title": "5.7.4   共享内存多处理器的基本概念",
+      "depth": 2,
+      "page": 288
+    },
+    {
+      "title": "5.7.5   本节习题精选",
+      "depth": 2,
+      "page": 289
+    },
+    {
+      "title": "5.7.6   答案与解析",
+      "depth": 2,
+      "page": 290
+    },
+    {
+      "title": "5.8   本章小结",
+      "depth": 1,
+      "page": 291
+    },
+    {
+      "title": "5.9   常见问题和易混淆知识点",
+      "depth": 1,
+      "page": 292
+    },
+    {
+      "title": "第6章   总线",
+      "depth": 0,
+      "page": 293
+    },
+    {
+      "title": "6.1   总线概述",
+      "depth": 1,
+      "page": 293
+    },
+    {
+      "title": "6.1.1   总线基本概念",
+      "depth": 2,
+      "page": 293
+    },
+    {
+      "title": "6.1.2   总线的分类",
+      "depth": 2,
+      "page": 294
+    },
+    {
+      "title": "6.1.3   系统总线的结构",
+      "depth": 2,
+      "page": 294
+    },
+    {
+      "title": "*6.1.4   常见的总线标准",
+      "depth": 2,
+      "page": 295
+    },
+    {
+      "title": "6.1.5   总线的性能指标",
+      "depth": 2,
+      "page": 296
+    },
+    {
+      "title": "6.1.6   本节习题精选",
+      "depth": 2,
+      "page": 297
+    },
+    {
+      "title": "6.1.7   答案与解析",
+      "depth": 2,
+      "page": 300
+    },
+    {
+      "title": "6.2   总线事务和定时",
+      "depth": 1,
+      "page": 303
+    },
+    {
+      "title": "6.2.1   总线事务",
+      "depth": 2,
+      "page": 303
+    },
+    {
+      "title": "6.2.2   总线定时",
+      "depth": 2,
+      "page": 303
+    },
+    {
+      "title": "6.2.3   本节习题精选",
+      "depth": 2,
+      "page": 305
+    },
+    {
+      "title": "6.2.4   答案与解析",
+      "depth": 2,
+      "page": 307
+    },
+    {
+      "title": "6.3   本章小结",
+      "depth": 1,
+      "page": 309
+    },
+    {
+      "title": "6.4   常见问题和易混淆知识点",
+      "depth": 1,
+      "page": 309
+    },
+    {
+      "title": "第7章   输入/输出系统",
+      "depth": 0,
+      "page": 310
+    },
+    {
+      "title": "*7.1   I/O系统基本概念",
+      "depth": 1,
+      "page": 310
+    },
+    {
+      "title": "*7.1.1   输入/输出系统",
+      "depth": 2,
+      "page": 310
+    },
+    {
+      "title": "*7.1.2   外部设备",
+      "depth": 2,
+      "page": 311
+    },
+    {
+      "title": "*7.1.3   I/O控制方式",
+      "depth": 2,
+      "page": 312
+    },
+    {
+      "title": "*7.1.4   本节习题精选",
+      "depth": 2,
+      "page": 312
+    },
+    {
+      "title": "*7.1.5   答案与解析",
+      "depth": 2,
+      "page": 313
+    },
+    {
+      "title": "7.2   I/O接口",
+      "depth": 1,
+      "page": 313
+    },
+    {
+      "title": "7.2.1   I/O接口的功能",
+      "depth": 2,
+      "page": 313
+    },
+    {
+      "title": "7.2.2   I/O接口的基本结构",
+      "depth": 2,
+      "page": 313
+    },
+    {
+      "title": "7.2.3   I/O接口的类型",
+      "depth": 2,
+      "page": 314
+    },
+    {
+      "title": "7.2.4   I/O端口及其编址",
+      "depth": 2,
+      "page": 314
+    },
+    {
+      "title": "7.2.5   本节习题精选",
+      "depth": 2,
+      "page": 315
+    },
+    {
+      "title": "7.2.6   答案与解析",
+      "depth": 2,
+      "page": 317
+    },
+    {
+      "title": "7.3   I/O方式",
+      "depth": 1,
+      "page": 318
+    },
+    {
+      "title": "7.3.1   程序查询方式",
+      "depth": 2,
+      "page": 319
+    },
+    {
+      "title": "7.3.2   程序中断方式",
+      "depth": 2,
+      "page": 320
+    },
+    {
+      "title": "7.3.3   DMA方式",
+      "depth": 2,
+      "page": 325
+    },
+    {
+      "title": "7.3.4   本节习题精选",
+      "depth": 2,
+      "page": 329
+    },
+    {
+      "title": "7.3.5   答案与解析",
+      "depth": 2,
+      "page": 337
+    },
+    {
+      "title": "7.4   本章小结",
+      "depth": 1,
+      "page": 346
+    },
+    {
+      "title": "7.5   常见问题和易混淆知识点",
+      "depth": 1,
+      "page": 347
+    },
+    {
+      "title": "参考文献",
+      "depth": 0,
+      "page": 348
+    }
+  ],
+  "sample_pages": [
+    {
+      "page": 1,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 2,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 3,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 4,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 5,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 6,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 7,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 8,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 9,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 10,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 11,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 12,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 13,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 14,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 15,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 17,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 18,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 19,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 20,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 22,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 24,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 27,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 31,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 35,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 37,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 40,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 42,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 45,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 47,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 50,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 53,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 56,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 59,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 63,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 68,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 69,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 72,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 73,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 74,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 75,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 81,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 103,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 137,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 171,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 205,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 239,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 273,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 307,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 341,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 348,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    }
+  ],
+  "extraction": {
+    "tool": "pdfjs-dist",
+    "version": "6.1.200",
+    "elapsed_ms": 345
+  }
+}

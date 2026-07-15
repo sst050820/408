@@ -1,9 +1,0 @@
-2026年数据结构考研复习指导
-则将该结点从链表中删除。
-2）使用C语言描述的单链表结点的数据类型定义:
-typedef struct node {
-int
-data;
-struct node
-*link;
-}NODE;

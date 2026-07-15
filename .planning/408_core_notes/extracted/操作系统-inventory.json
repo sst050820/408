@@ -1,0 +1,2623 @@
+{
+  "source": "D:\\study\\408\\90-复习资料\\01-核心教材\\2026操作系统_带书签.pdf",
+  "file_name": "2026操作系统_带书签.pdf",
+  "num_pages": 372,
+  "fingerprints": [
+    "493f9f9d33e7b290dd2c55838521bd04",
+    null
+  ],
+  "info": {
+    "PDFFormatVersion": "1.7",
+    "Language": null,
+    "EncryptFilterName": null,
+    "IsLinearized": false,
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "IsCollectionPresent": false,
+    "IsSignaturesPresent": false,
+    "ModDate": "D:20250114213744+08'00'"
+  },
+  "metadata": null,
+  "content_disposition_filename": null,
+  "content_length": null,
+  "page_labels": null,
+  "outline": [
+    {
+      "title": "扉页",
+      "depth": 0,
+      "page": 1,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "版权页",
+      "depth": 0,
+      "page": 2,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "本书配套资源介绍",
+      "depth": 0,
+      "page": 3,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "前 言",
+      "depth": 0,
+      "page": 4,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "致 读 者",
+      "depth": 0,
+      "page": 5,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "王道训练营",
+      "depth": 0,
+      "page": 6,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "目 录",
+      "depth": 0,
+      "page": 8,
+      "bold": false,
+      "italic": false,
+      "items": []
+    },
+    {
+      "title": "第1章   计算机系统概述",
+      "depth": 0,
+      "page": 13,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "1.1   操作系统的基本概念",
+          "depth": 1,
+          "page": 13,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "1.1.1   操作系统的概念",
+              "depth": 2,
+              "page": 13,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.1.2   操作系统的功能和目标",
+              "depth": 2,
+              "page": 14,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.1.3   操作系统的特征",
+              "depth": 2,
+              "page": 15,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.1.4   本节习题精选",
+              "depth": 2,
+              "page": 17,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.1.5   答案与解析",
+              "depth": 2,
+              "page": 18,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "1.2   操作系统发展历程",
+          "depth": 1,
+          "page": 19,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "1.2.1   手工操作阶段（此阶段无操作系统）",
+              "depth": 2,
+              "page": 19,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.2   批处理阶段（操作系统开始出现）",
+              "depth": 2,
+              "page": 19,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.3   分时操作系统",
+              "depth": 2,
+              "page": 20,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.4   实时操作系统",
+              "depth": 2,
+              "page": 21,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.5   网络操作系统和分布式计算机系统",
+              "depth": 2,
+              "page": 21,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.6   个人计算机操作系统",
+              "depth": 2,
+              "page": 21,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.7   本节习题精选",
+              "depth": 2,
+              "page": 22,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.2.8   答案与解析",
+              "depth": 2,
+              "page": 24,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "1.3   操作系统的运行环境",
+          "depth": 1,
+          "page": 27,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "1.3.1   处理器运行模式",
+              "depth": 2,
+              "page": 27,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.3.2   中断和异常的概念",
+              "depth": 2,
+              "page": 28,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.3.3   系统调用",
+              "depth": 2,
+              "page": 30,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.3.4   本节习题精选",
+              "depth": 2,
+              "page": 31,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.3.5   答案与解析",
+              "depth": 2,
+              "page": 34,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "1.4   操作系统结构",
+          "depth": 1,
+          "page": 38,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "1.5   操作系统引导",
+          "depth": 1,
+          "page": 41,
+          "bold": false,
+          "italic": false,
+          "items": []
+        },
+        {
+          "title": "1.6   虚拟机",
+          "depth": 1,
+          "page": 42,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "1.6.1   虚拟机的基本概念",
+              "depth": 2,
+              "page": 42,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.6.2   本节习题精选",
+              "depth": 2,
+              "page": 43,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "1.6.3   答案与解析",
+              "depth": 2,
+              "page": 45,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "1.7   本章疑难点",
+          "depth": 1,
+          "page": 47,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第2章   进程与线程",
+      "depth": 0,
+      "page": 49,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "2.1   进程与线程",
+          "depth": 1,
+          "page": 49,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "2.1.1   进程的概念和特征",
+              "depth": 2,
+              "page": 50,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.2   进程的组成",
+              "depth": 2,
+              "page": 50,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.3   进程的状态与转换",
+              "depth": 2,
+              "page": 52,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.4   进程控制",
+              "depth": 2,
+              "page": 53,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.5   进程的通信",
+              "depth": 2,
+              "page": 54,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.6   线程和多线程模型",
+              "depth": 2,
+              "page": 56,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.7   本节小结",
+              "depth": 2,
+              "page": 60,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.8   本节习题精选",
+              "depth": 2,
+              "page": 61,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.1.9   答案与解析",
+              "depth": 2,
+              "page": 69,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "2.2   CPU调度",
+          "depth": 1,
+          "page": 78,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "2.2.1   调度的概念",
+              "depth": 2,
+              "page": 78,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.2   调度的实现",
+              "depth": 2,
+              "page": 79,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.3   调度的目标",
+              "depth": 2,
+              "page": 81,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.4   进程切换",
+              "depth": 2,
+              "page": 82,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.5   CPU调度算法",
+              "depth": 2,
+              "page": 83,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.6   多处理机调度",
+              "depth": 2,
+              "page": 88,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.7   本节小结",
+              "depth": 2,
+              "page": 89,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.8   本节习题精选",
+              "depth": 2,
+              "page": 89,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.2.9   答案与解析",
+              "depth": 2,
+              "page": 97,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "2.3   同步与互斥",
+          "depth": 1,
+          "page": 109,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "2.3.1   同步与互斥的基本概念",
+              "depth": 2,
+              "page": 110,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.2   实现临界区互斥的基本方法",
+              "depth": 2,
+              "page": 111,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.3   互斥锁",
+              "depth": 2,
+              "page": 114,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.4   信号量",
+              "depth": 2,
+              "page": 114,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.5   经典同步问题",
+              "depth": 2,
+              "page": 118,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.6   管程",
+              "depth": 2,
+              "page": 124,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.7   本节小结",
+              "depth": 2,
+              "page": 125,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.8   本节习题精选",
+              "depth": 2,
+              "page": 126,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.3.9   答案与解析",
+              "depth": 2,
+              "page": 138,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "2.4   死锁",
+          "depth": 1,
+          "page": 161,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "2.4.1   死锁的概念",
+              "depth": 2,
+              "page": 161,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.4.2   死锁预防",
+              "depth": 2,
+              "page": 164,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.4.3   死锁避免",
+              "depth": 2,
+              "page": 164,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.4.4   死锁检测和解除",
+              "depth": 2,
+              "page": 169,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.4.5   本节小结",
+              "depth": 2,
+              "page": 170,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.4.6   本节习题精选",
+              "depth": 2,
+              "page": 170,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "2.4.7   答案与解析",
+              "depth": 2,
+              "page": 177,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "2.5   本章疑难点",
+          "depth": 1,
+          "page": 188,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第3章   内存管理",
+      "depth": 0,
+      "page": 189,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "3.1   内存管理概念",
+          "depth": 1,
+          "page": 189,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.1.1   内存管理的基本原理和要求",
+              "depth": 2,
+              "page": 189,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.2   连续分配管理方式",
+              "depth": 2,
+              "page": 193,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.3   基本分页存储管理",
+              "depth": 2,
+              "page": 196,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.4   基本分段存储管理",
+              "depth": 2,
+              "page": 200,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.5   段页式存储管理",
+              "depth": 2,
+              "page": 203,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.6   本节小结",
+              "depth": 2,
+              "page": 204,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.7   本节习题精选",
+              "depth": 2,
+              "page": 204,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.1.8   答案与解析",
+              "depth": 2,
+              "page": 214,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.2   虚拟内存管理",
+          "depth": 1,
+          "page": 225,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "3.2.1   虚拟内存的基本概念",
+              "depth": 2,
+              "page": 225,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.2   请求分页管理方式",
+              "depth": 2,
+              "page": 227,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.3   页框分配",
+              "depth": 2,
+              "page": 228,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.4   页面置换算法",
+              "depth": 2,
+              "page": 230,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "*3.2.5   抖动和工作集①",
+              "depth": 2,
+              "page": 234,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.6   页框回收",
+              "depth": 2,
+              "page": 234,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.7   内存映射文件",
+              "depth": 2,
+              "page": 235,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.8   虚拟存储器性能影响因素",
+              "depth": 2,
+              "page": 236,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.9   地址翻译",
+              "depth": 2,
+              "page": 236,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.10   本节小结",
+              "depth": 2,
+              "page": 238,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.11   本节习题精选",
+              "depth": 2,
+              "page": 239,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "3.2.12   答案与解析",
+              "depth": 2,
+              "page": 250,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "3.3   本章疑难点",
+          "depth": 1,
+          "page": 263,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第4章   文件管理",
+      "depth": 0,
+      "page": 264,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "4.1   文件系统基础",
+          "depth": 1,
+          "page": 264,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "4.1.1   文件的基本概念",
+              "depth": 2,
+              "page": 264,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.2   文件控制块和索引节点",
+              "depth": 2,
+              "page": 266,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.3   文件的操作",
+              "depth": 2,
+              "page": 267,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.4   文件的逻辑结构",
+              "depth": 2,
+              "page": 269,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.5   文件的物理结构",
+              "depth": 2,
+              "page": 271,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.6   文件保护",
+              "depth": 2,
+              "page": 275,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.7   本节小结",
+              "depth": 2,
+              "page": 277,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.8   本节习题精选",
+              "depth": 2,
+              "page": 277,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.1.9   答案与解析",
+              "depth": 2,
+              "page": 284,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "4.2   目录",
+          "depth": 1,
+          "page": 294,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "4.2.1   目录的基本概念",
+              "depth": 2,
+              "page": 294,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.2   目录的操作",
+              "depth": 2,
+              "page": 294,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.3   目录结构",
+              "depth": 2,
+              "page": 294,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "*4.2.4   目录实现",
+              "depth": 2,
+              "page": 296,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.5   文件共享",
+              "depth": 2,
+              "page": 297,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.6   本节小结",
+              "depth": 2,
+              "page": 299,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.7   本节习题精选",
+              "depth": 2,
+              "page": 299,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.2.8   答案与解析",
+              "depth": 2,
+              "page": 303,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "4.3   文件系统",
+          "depth": 1,
+          "page": 306,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "4.3.1   文件系统结构",
+              "depth": 2,
+              "page": 306,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.2   文件系统布局",
+              "depth": 2,
+              "page": 307,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.3   文件存储空间管理",
+              "depth": 2,
+              "page": 308,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.4   虚拟文件系统",
+              "depth": 2,
+              "page": 311,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.5   文件系统挂载",
+              "depth": 2,
+              "page": 312,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.6   本节小结",
+              "depth": 2,
+              "page": 313,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.7   本节习题精选",
+              "depth": 2,
+              "page": 313,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "4.3.8   答案与解析",
+              "depth": 2,
+              "page": 315,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "4.4   本章疑难点",
+          "depth": 1,
+          "page": 317,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "第5章   输入/输出管理",
+      "depth": 0,
+      "page": 318,
+      "bold": false,
+      "italic": false,
+      "items": [
+        {
+          "title": "5.1   I/O管理概述",
+          "depth": 1,
+          "page": 318,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.1.1   I/O设备",
+              "depth": 2,
+              "page": 318,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.2   I/O控制方式",
+              "depth": 2,
+              "page": 321,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.3   I/O软件层次结构",
+              "depth": 2,
+              "page": 323,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.4   应用程序I/O接口",
+              "depth": 2,
+              "page": 325,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.5   本节小结",
+              "depth": 2,
+              "page": 326,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.6   本节习题精选",
+              "depth": 2,
+              "page": 326,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.1.7   答案与解析",
+              "depth": 2,
+              "page": 329,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.2   设备独立性软件",
+          "depth": 1,
+          "page": 331,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.2.1   设备独立性软件",
+              "depth": 2,
+              "page": 332,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.2   高速缓存与缓冲区",
+              "depth": 2,
+              "page": 332,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.3   设备分配与回收",
+              "depth": 2,
+              "page": 335,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.4   SPOOLing技术（假脱机技术）",
+              "depth": 2,
+              "page": 338,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.5   设备驱动程序接口",
+              "depth": 2,
+              "page": 339,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.6   I/O操作举例",
+              "depth": 2,
+              "page": 339,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.7   本节小结",
+              "depth": 2,
+              "page": 341,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.8   本节习题精选",
+              "depth": 2,
+              "page": 341,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.2.9   答案与解析",
+              "depth": 2,
+              "page": 346,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.3   磁盘和固态硬盘",
+          "depth": 1,
+          "page": 352,
+          "bold": false,
+          "italic": false,
+          "items": [
+            {
+              "title": "5.3.1   磁盘",
+              "depth": 2,
+              "page": 352,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.2   磁盘的管理",
+              "depth": 2,
+              "page": 353,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.3   磁盘调度算法",
+              "depth": 2,
+              "page": 354,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.4   固态硬盘",
+              "depth": 2,
+              "page": 358,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.5   本节小结",
+              "depth": 2,
+              "page": 359,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.6   本节习题精选",
+              "depth": 2,
+              "page": 360,
+              "bold": false,
+              "italic": false,
+              "items": []
+            },
+            {
+              "title": "5.3.7   答案与解析",
+              "depth": 2,
+              "page": 364,
+              "bold": false,
+              "italic": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "5.4   本章疑难点",
+          "depth": 1,
+          "page": 371,
+          "bold": false,
+          "italic": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "参考文献",
+      "depth": 0,
+      "page": 372,
+      "bold": false,
+      "italic": false,
+      "items": []
+    }
+  ],
+  "outline_flat": [
+    {
+      "title": "扉页",
+      "depth": 0,
+      "page": 1
+    },
+    {
+      "title": "版权页",
+      "depth": 0,
+      "page": 2
+    },
+    {
+      "title": "本书配套资源介绍",
+      "depth": 0,
+      "page": 3
+    },
+    {
+      "title": "前 言",
+      "depth": 0,
+      "page": 4
+    },
+    {
+      "title": "致 读 者",
+      "depth": 0,
+      "page": 5
+    },
+    {
+      "title": "王道训练营",
+      "depth": 0,
+      "page": 6
+    },
+    {
+      "title": "目 录",
+      "depth": 0,
+      "page": 8
+    },
+    {
+      "title": "第1章   计算机系统概述",
+      "depth": 0,
+      "page": 13
+    },
+    {
+      "title": "1.1   操作系统的基本概念",
+      "depth": 1,
+      "page": 13
+    },
+    {
+      "title": "1.1.1   操作系统的概念",
+      "depth": 2,
+      "page": 13
+    },
+    {
+      "title": "1.1.2   操作系统的功能和目标",
+      "depth": 2,
+      "page": 14
+    },
+    {
+      "title": "1.1.3   操作系统的特征",
+      "depth": 2,
+      "page": 15
+    },
+    {
+      "title": "1.1.4   本节习题精选",
+      "depth": 2,
+      "page": 17
+    },
+    {
+      "title": "1.1.5   答案与解析",
+      "depth": 2,
+      "page": 18
+    },
+    {
+      "title": "1.2   操作系统发展历程",
+      "depth": 1,
+      "page": 19
+    },
+    {
+      "title": "1.2.1   手工操作阶段（此阶段无操作系统）",
+      "depth": 2,
+      "page": 19
+    },
+    {
+      "title": "1.2.2   批处理阶段（操作系统开始出现）",
+      "depth": 2,
+      "page": 19
+    },
+    {
+      "title": "1.2.3   分时操作系统",
+      "depth": 2,
+      "page": 20
+    },
+    {
+      "title": "1.2.4   实时操作系统",
+      "depth": 2,
+      "page": 21
+    },
+    {
+      "title": "1.2.5   网络操作系统和分布式计算机系统",
+      "depth": 2,
+      "page": 21
+    },
+    {
+      "title": "1.2.6   个人计算机操作系统",
+      "depth": 2,
+      "page": 21
+    },
+    {
+      "title": "1.2.7   本节习题精选",
+      "depth": 2,
+      "page": 22
+    },
+    {
+      "title": "1.2.8   答案与解析",
+      "depth": 2,
+      "page": 24
+    },
+    {
+      "title": "1.3   操作系统的运行环境",
+      "depth": 1,
+      "page": 27
+    },
+    {
+      "title": "1.3.1   处理器运行模式",
+      "depth": 2,
+      "page": 27
+    },
+    {
+      "title": "1.3.2   中断和异常的概念",
+      "depth": 2,
+      "page": 28
+    },
+    {
+      "title": "1.3.3   系统调用",
+      "depth": 2,
+      "page": 30
+    },
+    {
+      "title": "1.3.4   本节习题精选",
+      "depth": 2,
+      "page": 31
+    },
+    {
+      "title": "1.3.5   答案与解析",
+      "depth": 2,
+      "page": 34
+    },
+    {
+      "title": "1.4   操作系统结构",
+      "depth": 1,
+      "page": 38
+    },
+    {
+      "title": "1.5   操作系统引导",
+      "depth": 1,
+      "page": 41
+    },
+    {
+      "title": "1.6   虚拟机",
+      "depth": 1,
+      "page": 42
+    },
+    {
+      "title": "1.6.1   虚拟机的基本概念",
+      "depth": 2,
+      "page": 42
+    },
+    {
+      "title": "1.6.2   本节习题精选",
+      "depth": 2,
+      "page": 43
+    },
+    {
+      "title": "1.6.3   答案与解析",
+      "depth": 2,
+      "page": 45
+    },
+    {
+      "title": "1.7   本章疑难点",
+      "depth": 1,
+      "page": 47
+    },
+    {
+      "title": "第2章   进程与线程",
+      "depth": 0,
+      "page": 49
+    },
+    {
+      "title": "2.1   进程与线程",
+      "depth": 1,
+      "page": 49
+    },
+    {
+      "title": "2.1.1   进程的概念和特征",
+      "depth": 2,
+      "page": 50
+    },
+    {
+      "title": "2.1.2   进程的组成",
+      "depth": 2,
+      "page": 50
+    },
+    {
+      "title": "2.1.3   进程的状态与转换",
+      "depth": 2,
+      "page": 52
+    },
+    {
+      "title": "2.1.4   进程控制",
+      "depth": 2,
+      "page": 53
+    },
+    {
+      "title": "2.1.5   进程的通信",
+      "depth": 2,
+      "page": 54
+    },
+    {
+      "title": "2.1.6   线程和多线程模型",
+      "depth": 2,
+      "page": 56
+    },
+    {
+      "title": "2.1.7   本节小结",
+      "depth": 2,
+      "page": 60
+    },
+    {
+      "title": "2.1.8   本节习题精选",
+      "depth": 2,
+      "page": 61
+    },
+    {
+      "title": "2.1.9   答案与解析",
+      "depth": 2,
+      "page": 69
+    },
+    {
+      "title": "2.2   CPU调度",
+      "depth": 1,
+      "page": 78
+    },
+    {
+      "title": "2.2.1   调度的概念",
+      "depth": 2,
+      "page": 78
+    },
+    {
+      "title": "2.2.2   调度的实现",
+      "depth": 2,
+      "page": 79
+    },
+    {
+      "title": "2.2.3   调度的目标",
+      "depth": 2,
+      "page": 81
+    },
+    {
+      "title": "2.2.4   进程切换",
+      "depth": 2,
+      "page": 82
+    },
+    {
+      "title": "2.2.5   CPU调度算法",
+      "depth": 2,
+      "page": 83
+    },
+    {
+      "title": "2.2.6   多处理机调度",
+      "depth": 2,
+      "page": 88
+    },
+    {
+      "title": "2.2.7   本节小结",
+      "depth": 2,
+      "page": 89
+    },
+    {
+      "title": "2.2.8   本节习题精选",
+      "depth": 2,
+      "page": 89
+    },
+    {
+      "title": "2.2.9   答案与解析",
+      "depth": 2,
+      "page": 97
+    },
+    {
+      "title": "2.3   同步与互斥",
+      "depth": 1,
+      "page": 109
+    },
+    {
+      "title": "2.3.1   同步与互斥的基本概念",
+      "depth": 2,
+      "page": 110
+    },
+    {
+      "title": "2.3.2   实现临界区互斥的基本方法",
+      "depth": 2,
+      "page": 111
+    },
+    {
+      "title": "2.3.3   互斥锁",
+      "depth": 2,
+      "page": 114
+    },
+    {
+      "title": "2.3.4   信号量",
+      "depth": 2,
+      "page": 114
+    },
+    {
+      "title": "2.3.5   经典同步问题",
+      "depth": 2,
+      "page": 118
+    },
+    {
+      "title": "2.3.6   管程",
+      "depth": 2,
+      "page": 124
+    },
+    {
+      "title": "2.3.7   本节小结",
+      "depth": 2,
+      "page": 125
+    },
+    {
+      "title": "2.3.8   本节习题精选",
+      "depth": 2,
+      "page": 126
+    },
+    {
+      "title": "2.3.9   答案与解析",
+      "depth": 2,
+      "page": 138
+    },
+    {
+      "title": "2.4   死锁",
+      "depth": 1,
+      "page": 161
+    },
+    {
+      "title": "2.4.1   死锁的概念",
+      "depth": 2,
+      "page": 161
+    },
+    {
+      "title": "2.4.2   死锁预防",
+      "depth": 2,
+      "page": 164
+    },
+    {
+      "title": "2.4.3   死锁避免",
+      "depth": 2,
+      "page": 164
+    },
+    {
+      "title": "2.4.4   死锁检测和解除",
+      "depth": 2,
+      "page": 169
+    },
+    {
+      "title": "2.4.5   本节小结",
+      "depth": 2,
+      "page": 170
+    },
+    {
+      "title": "2.4.6   本节习题精选",
+      "depth": 2,
+      "page": 170
+    },
+    {
+      "title": "2.4.7   答案与解析",
+      "depth": 2,
+      "page": 177
+    },
+    {
+      "title": "2.5   本章疑难点",
+      "depth": 1,
+      "page": 188
+    },
+    {
+      "title": "第3章   内存管理",
+      "depth": 0,
+      "page": 189
+    },
+    {
+      "title": "3.1   内存管理概念",
+      "depth": 1,
+      "page": 189
+    },
+    {
+      "title": "3.1.1   内存管理的基本原理和要求",
+      "depth": 2,
+      "page": 189
+    },
+    {
+      "title": "3.1.2   连续分配管理方式",
+      "depth": 2,
+      "page": 193
+    },
+    {
+      "title": "3.1.3   基本分页存储管理",
+      "depth": 2,
+      "page": 196
+    },
+    {
+      "title": "3.1.4   基本分段存储管理",
+      "depth": 2,
+      "page": 200
+    },
+    {
+      "title": "3.1.5   段页式存储管理",
+      "depth": 2,
+      "page": 203
+    },
+    {
+      "title": "3.1.6   本节小结",
+      "depth": 2,
+      "page": 204
+    },
+    {
+      "title": "3.1.7   本节习题精选",
+      "depth": 2,
+      "page": 204
+    },
+    {
+      "title": "3.1.8   答案与解析",
+      "depth": 2,
+      "page": 214
+    },
+    {
+      "title": "3.2   虚拟内存管理",
+      "depth": 1,
+      "page": 225
+    },
+    {
+      "title": "3.2.1   虚拟内存的基本概念",
+      "depth": 2,
+      "page": 225
+    },
+    {
+      "title": "3.2.2   请求分页管理方式",
+      "depth": 2,
+      "page": 227
+    },
+    {
+      "title": "3.2.3   页框分配",
+      "depth": 2,
+      "page": 228
+    },
+    {
+      "title": "3.2.4   页面置换算法",
+      "depth": 2,
+      "page": 230
+    },
+    {
+      "title": "*3.2.5   抖动和工作集①",
+      "depth": 2,
+      "page": 234
+    },
+    {
+      "title": "3.2.6   页框回收",
+      "depth": 2,
+      "page": 234
+    },
+    {
+      "title": "3.2.7   内存映射文件",
+      "depth": 2,
+      "page": 235
+    },
+    {
+      "title": "3.2.8   虚拟存储器性能影响因素",
+      "depth": 2,
+      "page": 236
+    },
+    {
+      "title": "3.2.9   地址翻译",
+      "depth": 2,
+      "page": 236
+    },
+    {
+      "title": "3.2.10   本节小结",
+      "depth": 2,
+      "page": 238
+    },
+    {
+      "title": "3.2.11   本节习题精选",
+      "depth": 2,
+      "page": 239
+    },
+    {
+      "title": "3.2.12   答案与解析",
+      "depth": 2,
+      "page": 250
+    },
+    {
+      "title": "3.3   本章疑难点",
+      "depth": 1,
+      "page": 263
+    },
+    {
+      "title": "第4章   文件管理",
+      "depth": 0,
+      "page": 264
+    },
+    {
+      "title": "4.1   文件系统基础",
+      "depth": 1,
+      "page": 264
+    },
+    {
+      "title": "4.1.1   文件的基本概念",
+      "depth": 2,
+      "page": 264
+    },
+    {
+      "title": "4.1.2   文件控制块和索引节点",
+      "depth": 2,
+      "page": 266
+    },
+    {
+      "title": "4.1.3   文件的操作",
+      "depth": 2,
+      "page": 267
+    },
+    {
+      "title": "4.1.4   文件的逻辑结构",
+      "depth": 2,
+      "page": 269
+    },
+    {
+      "title": "4.1.5   文件的物理结构",
+      "depth": 2,
+      "page": 271
+    },
+    {
+      "title": "4.1.6   文件保护",
+      "depth": 2,
+      "page": 275
+    },
+    {
+      "title": "4.1.7   本节小结",
+      "depth": 2,
+      "page": 277
+    },
+    {
+      "title": "4.1.8   本节习题精选",
+      "depth": 2,
+      "page": 277
+    },
+    {
+      "title": "4.1.9   答案与解析",
+      "depth": 2,
+      "page": 284
+    },
+    {
+      "title": "4.2   目录",
+      "depth": 1,
+      "page": 294
+    },
+    {
+      "title": "4.2.1   目录的基本概念",
+      "depth": 2,
+      "page": 294
+    },
+    {
+      "title": "4.2.2   目录的操作",
+      "depth": 2,
+      "page": 294
+    },
+    {
+      "title": "4.2.3   目录结构",
+      "depth": 2,
+      "page": 294
+    },
+    {
+      "title": "*4.2.4   目录实现",
+      "depth": 2,
+      "page": 296
+    },
+    {
+      "title": "4.2.5   文件共享",
+      "depth": 2,
+      "page": 297
+    },
+    {
+      "title": "4.2.6   本节小结",
+      "depth": 2,
+      "page": 299
+    },
+    {
+      "title": "4.2.7   本节习题精选",
+      "depth": 2,
+      "page": 299
+    },
+    {
+      "title": "4.2.8   答案与解析",
+      "depth": 2,
+      "page": 303
+    },
+    {
+      "title": "4.3   文件系统",
+      "depth": 1,
+      "page": 306
+    },
+    {
+      "title": "4.3.1   文件系统结构",
+      "depth": 2,
+      "page": 306
+    },
+    {
+      "title": "4.3.2   文件系统布局",
+      "depth": 2,
+      "page": 307
+    },
+    {
+      "title": "4.3.3   文件存储空间管理",
+      "depth": 2,
+      "page": 308
+    },
+    {
+      "title": "4.3.4   虚拟文件系统",
+      "depth": 2,
+      "page": 311
+    },
+    {
+      "title": "4.3.5   文件系统挂载",
+      "depth": 2,
+      "page": 312
+    },
+    {
+      "title": "4.3.6   本节小结",
+      "depth": 2,
+      "page": 313
+    },
+    {
+      "title": "4.3.7   本节习题精选",
+      "depth": 2,
+      "page": 313
+    },
+    {
+      "title": "4.3.8   答案与解析",
+      "depth": 2,
+      "page": 315
+    },
+    {
+      "title": "4.4   本章疑难点",
+      "depth": 1,
+      "page": 317
+    },
+    {
+      "title": "第5章   输入/输出管理",
+      "depth": 0,
+      "page": 318
+    },
+    {
+      "title": "5.1   I/O管理概述",
+      "depth": 1,
+      "page": 318
+    },
+    {
+      "title": "5.1.1   I/O设备",
+      "depth": 2,
+      "page": 318
+    },
+    {
+      "title": "5.1.2   I/O控制方式",
+      "depth": 2,
+      "page": 321
+    },
+    {
+      "title": "5.1.3   I/O软件层次结构",
+      "depth": 2,
+      "page": 323
+    },
+    {
+      "title": "5.1.4   应用程序I/O接口",
+      "depth": 2,
+      "page": 325
+    },
+    {
+      "title": "5.1.5   本节小结",
+      "depth": 2,
+      "page": 326
+    },
+    {
+      "title": "5.1.6   本节习题精选",
+      "depth": 2,
+      "page": 326
+    },
+    {
+      "title": "5.1.7   答案与解析",
+      "depth": 2,
+      "page": 329
+    },
+    {
+      "title": "5.2   设备独立性软件",
+      "depth": 1,
+      "page": 331
+    },
+    {
+      "title": "5.2.1   设备独立性软件",
+      "depth": 2,
+      "page": 332
+    },
+    {
+      "title": "5.2.2   高速缓存与缓冲区",
+      "depth": 2,
+      "page": 332
+    },
+    {
+      "title": "5.2.3   设备分配与回收",
+      "depth": 2,
+      "page": 335
+    },
+    {
+      "title": "5.2.4   SPOOLing技术（假脱机技术）",
+      "depth": 2,
+      "page": 338
+    },
+    {
+      "title": "5.2.5   设备驱动程序接口",
+      "depth": 2,
+      "page": 339
+    },
+    {
+      "title": "5.2.6   I/O操作举例",
+      "depth": 2,
+      "page": 339
+    },
+    {
+      "title": "5.2.7   本节小结",
+      "depth": 2,
+      "page": 341
+    },
+    {
+      "title": "5.2.8   本节习题精选",
+      "depth": 2,
+      "page": 341
+    },
+    {
+      "title": "5.2.9   答案与解析",
+      "depth": 2,
+      "page": 346
+    },
+    {
+      "title": "5.3   磁盘和固态硬盘",
+      "depth": 1,
+      "page": 352
+    },
+    {
+      "title": "5.3.1   磁盘",
+      "depth": 2,
+      "page": 352
+    },
+    {
+      "title": "5.3.2   磁盘的管理",
+      "depth": 2,
+      "page": 353
+    },
+    {
+      "title": "5.3.3   磁盘调度算法",
+      "depth": 2,
+      "page": 354
+    },
+    {
+      "title": "5.3.4   固态硬盘",
+      "depth": 2,
+      "page": 358
+    },
+    {
+      "title": "5.3.5   本节小结",
+      "depth": 2,
+      "page": 359
+    },
+    {
+      "title": "5.3.6   本节习题精选",
+      "depth": 2,
+      "page": 360
+    },
+    {
+      "title": "5.3.7   答案与解析",
+      "depth": 2,
+      "page": 364
+    },
+    {
+      "title": "5.4   本章疑难点",
+      "depth": 1,
+      "page": 371
+    },
+    {
+      "title": "参考文献",
+      "depth": 0,
+      "page": 372
+    }
+  ],
+  "sample_pages": [
+    {
+      "page": 1,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 2,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 3,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 4,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 5,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 6,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 7,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 8,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 9,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 10,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 11,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 12,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 13,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 14,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 15,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 17,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 18,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 19,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 20,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 21,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 22,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 24,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 27,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 28,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 30,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 31,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 34,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 38,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 41,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 42,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 43,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 45,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 47,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 49,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 50,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 52,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 53,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 54,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 56,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 60,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 75,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 112,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 149,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 186,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 223,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 260,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 297,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 334,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 371,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    },
+    {
+      "page": 372,
+      "label": null,
+      "width": 541,
+      "height": 754,
+      "rotation": 0,
+      "item_count": 0,
+      "char_count": 0,
+      "text": ""
+    }
+  ],
+  "extraction": {
+    "tool": "pdfjs-dist",
+    "version": "6.1.200",
+    "elapsed_ms": 320
+  }
+}
